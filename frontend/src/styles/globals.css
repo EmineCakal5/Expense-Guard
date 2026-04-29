@@ -1,0 +1,546 @@
+/* ============================================================
+   ExpenseGuard — Global Styles
+   Bloomberg Terminal x Linear (fintech dark)
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Tokens ─────────────────────────────────────────────────── */
+:root {
+  --bg-base: #0B0E14;
+  --bg-surface: #121620;
+  --bg-elevated: #1A1F2E;
+  --bg-overlay: #232838;
+
+  --text-primary: #E8ECF4;
+  --text-secondary: #8B95A9;
+  --text-muted: #4A5568;
+
+  --accent-blue: #4C9EEB;
+  --accent-cyan: #22D3EE;
+
+  --risk-low: #34D399;
+  --risk-low-bg: rgba(52, 211, 153, 0.08);
+  --risk-medium: #FBBF24;
+  --risk-medium-bg: rgba(251, 191, 36, 0.08);
+  --risk-high: #F87171;
+  --risk-high-bg: rgba(248, 113, 113, 0.08);
+
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --radius-md: 12px;
+
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+/* ── Layout ─────────────────────────────────────────────────── */
+.app-shell { min-height: 100vh; }
+.main-content { padding: 24px; }
+
+/* ── Helpers ─────────────────────────────────────────────────── */
+.eg-mono { font-family: var(--font-mono); }
+.eg-focus:focus-visible { outline: 2px solid rgba(34, 211, 238, 0.35); outline-offset: 2px; }
+
+/* ── Loading / Spinner ───────────────────────────────────────── */
+.spinner {
+  width: 32px; height: 32px;
+  border: 3px solid var(--border-default);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: auto;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 200px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(76, 158, 235, 0.7); }
+
+/* ── Animations ──────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.25s ease forwards; }
+
+/* ============================================================
+   ExpenseGuard — Global Styles
+   Bloomberg Terminal x Linear (fintech dark)
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Tokens ─────────────────────────────────────────────────── */
+:root {
+  /* Arka planlar — katmanlı derinlik */
+  --bg-base: #0B0E14;
+  --bg-surface: #121620;
+  --bg-elevated: #1A1F2E;
+  --bg-overlay: #232838;
+
+  /* Metin hiyerarşisi */
+  --text-primary: #E8ECF4;
+  --text-secondary: #8B95A9;
+  --text-muted: #4A5568;
+
+  /* Vurgu renkleri */
+  --accent-blue: #4C9EEB;
+  --accent-cyan: #22D3EE;
+
+  /* Durum renkleri */
+  --risk-low: #34D399;
+  --risk-low-bg: rgba(52, 211, 153, 0.08);
+  --risk-medium: #FBBF24;
+  --risk-medium-bg: rgba(251, 191, 36, 0.08);
+  --risk-high: #F87171;
+  --risk-high-bg: rgba(248, 113, 113, 0.08);
+
+  /* Kenarlıklar */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+
+  /* Gölgeler */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  /* Radius */
+  --radius-md: 12px;
+
+  /* Fonts */
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+/* ── Layout ─────────────────────────────────────────────────── */
+.app-shell { min-height: 100vh; }
+.main-content { padding: 24px; }
+
+/* ── Helpers ─────────────────────────────────────────────────── */
+.eg-mono { font-family: var(--font-mono); }
+.eg-focus:focus-visible { outline: 2px solid rgba(34, 211, 238, 0.35); outline-offset: 2px; }
+
+/* ── Loading / Spinner ───────────────────────────────────────── */
+.spinner {
+  width: 32px; height: 32px;
+  border: 3px solid var(--border-default);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: auto;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 200px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(76, 158, 235, 0.7); }
+
+/* ── Animations ──────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.25s ease forwards; }
+
+/* ============================================================
+   ExpenseGuard — Global Styles
+   Bloomberg Terminal x Linear (fintech dark)
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Tokens ─────────────────────────────────────────────────── */
+:root {
+  /* Arka planlar — katmanlı derinlik */
+  --bg-base: #0B0E14;
+  --bg-surface: #121620;
+  --bg-elevated: #1A1F2E;
+  --bg-overlay: #232838;
+
+  /* Metin hiyerarşisi */
+  --text-primary: #E8ECF4;
+  --text-secondary: #8B95A9;
+  --text-muted: #4A5568;
+
+  /* Vurgu renkleri */
+  --accent-blue: #4C9EEB;
+  --accent-cyan: #22D3EE;
+
+  /* Durum renkleri */
+  --risk-low: #34D399;
+  --risk-low-bg: rgba(52, 211, 153, 0.08);
+  --risk-medium: #FBBF24;
+  --risk-medium-bg: rgba(251, 191, 36, 0.08);
+  --risk-high: #F87171;
+  --risk-high-bg: rgba(248, 113, 113, 0.08);
+
+  /* Kenarlıklar */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+
+  /* Gölgeler */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  /* Radius */
+  --radius-md: 12px;
+
+  /* Fonts */
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+/* ── Layout ─────────────────────────────────────────────────── */
+.app-shell { min-height: 100vh; }
+.main-content { padding: 24px; }
+
+/* ── Helpers ─────────────────────────────────────────────────── */
+.eg-mono { font-family: var(--font-mono); }
+.eg-focus:focus-visible { outline: 2px solid rgba(34, 211, 238, 0.35); outline-offset: 2px; }
+
+/* ── Loading / Spinner ───────────────────────────────────────── */
+.spinner {
+  width: 32px; height: 32px;
+  border: 3px solid var(--border-default);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: auto;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 200px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(76, 158, 235, 0.7); }
+
+/* ── Animations ──────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.25s ease forwards; }
+
+/* ============================================================
+   ExpenseGuard — Global Styles
+   Design tokens: Bloomberg Terminal x Linear (fintech dark)
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Tokens ─────────────────────────────────────────────────── */
+:root {
+  /* Arka planlar — katmanlı derinlik */
+  --bg-base: #0B0E14;        /* En derin arka plan */
+  --bg-surface: #121620;     /* Kart arka planı */
+  --bg-elevated: #1A1F2E;    /* Hover, aktif elemanlar */
+  --bg-overlay: #232838;     /* Dropdown, modal */
+  
+  /* Metin hiyerarşisi */
+  --text-primary: #E8ECF4;   /* Ana metin */
+  --text-secondary: #8B95A9; /* İkincil metin, label */
+  --text-muted: #4A5568;     /* Devre dışı, placeholder */
+  
+  /* Vurgu renkleri */
+  --accent-blue: #4C9EEB;    /* Ana marka rengi, linkler */
+  --accent-cyan: #22D3EE;    /* Aktif durumlar */
+  
+  /* Durum renkleri — parlak ama göz yormayan */
+  --risk-low: #34D399;       /* Yeşil — düşük risk */
+  --risk-low-bg: rgba(52, 211, 153, 0.08);
+  --risk-medium: #FBBF24;    /* Sarı — orta risk */
+  --risk-medium-bg: rgba(251, 191, 36, 0.08);
+  --risk-high: #F87171;      /* Kırmızı — yüksek risk */
+  --risk-high-bg: rgba(248, 113, 113, 0.08);
+  
+  /* Kenarlıklar ve ayırıcılar */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+  
+  /* Gölgeler */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* ── Reset ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Layout ──────────────────────────────────────────────────── */
+.app-shell {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 24px;
+  width: 100%;
+}
+
+/* ── Card ────────────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(12px);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card:hover { border-color: var(--border-accent); box-shadow: var(--shadow-card), var(--shadow-glow); }
+
+/* ── Glass card ─────────────────────────────────────────────── */
+.glass-card {
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(20px);
+  padding: 24px;
+}
+
+/* ── Stat cards ─────────────────────────────────────────────── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.stat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-card), var(--shadow-glow); }
+.stat-card .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-secondary); }
+.stat-card .value { font-size: 2rem; font-weight: 700; line-height: 1; color: var(--text-primary); }
+.stat-card .sub   { font-size: 0.8rem; color: var(--text-muted); }
+
+/* ── Dashboard grid ─────────────────────────────────────────── */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+@media (max-width: 900px) { .dashboard-grid { grid-template-columns: 1fr; } }
+
+/* ── Section title ───────────────────────────────────────────── */
+.section-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+/* ── Badge ───────────────────────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.badge-danger  { background: rgba(244,63,94,0.15);  color: #fda4af; border: 1px solid rgba(244,63,94,0.3); }
+.badge-warn    { background: rgba(245,158,11,0.15); color: #fcd34d; border: 1px solid rgba(245,158,11,0.3); }
+.badge-success { background: rgba(16,185,129,0.12); color: #6ee7b7; border: 1px solid rgba(16,185,129,0.25); }
+.badge-neutral { background: rgba(100,116,139,0.2); color: #94a3b8; border: 1px solid rgba(100,116,139,0.25); }
+
+/* ── Button ──────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 9px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem; font-weight: 600;
+  cursor: pointer; border: none; outline: none;
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+.btn:active { transform: scale(0.97); }
+.btn-primary { background: var(--accent-primary); color: #fff; }
+.btn-primary:hover { background: #4f52d0; box-shadow: 0 0 16px rgba(99,102,241,0.4); }
+.btn-ghost   { background: var(--bg-glass); color: var(--text-primary); border: 1px solid var(--border); }
+.btn-ghost:hover { border-color: var(--accent-primary); }
+
+/* ── Table ───────────────────────────────────────────────────── */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+thead th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid var(--border);
+}
+tbody tr { border-bottom: 1px solid rgba(255,255,255,0.04); transition: background 0.1s; }
+tbody tr:hover { background: rgba(255,255,255,0.04); }
+tbody td { padding: 10px 14px; color: var(--text-primary); }
+.mono { font-family: var(--font-mono); font-size: 0.8rem; }
+
+/* ── Score bar ───────────────────────────────────────────────── */
+.score-bar { display: flex; align-items: center; gap: 8px; }
+.score-bar-track { flex: 1; height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; overflow: hidden; }
+.score-bar-fill  { height: 100%; border-radius: 2px; transition: width 0.3s; }
+
+/* ── Loading / Spinner ───────────────────────────────────────── */
+.spinner {
+  width: 32px; height: 32px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent-primary);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin: auto;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-overlay {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; height: 200px; color: var(--text-secondary); font-size: 0.9rem;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-primary); }
+
+/* ── Animations ──────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.4s ease forwards; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; } 50% { opacity: 0.3; }
+}
+.live-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent-success);
+  animation: pulse-dot 1.5s ease-in-out infinite;
+}

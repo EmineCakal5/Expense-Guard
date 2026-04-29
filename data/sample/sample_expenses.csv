@@ -1,0 +1,501 @@
+transaction_id,expense_date,employee_id,employee_name,department,vendor,expense_category,amount,branch_location,original_fraud,is_anomaly,anomaly_type,risk_score,Unnamed: 0
+TXN00001,2019-08-20 01:48:09,EMP0029,Susan Mills,Bilgi Teknolojileri,Strosin-Cruickshank,Ofis Malzemesi,89.24,"Louisville, KY",0,False,,0.0,542259
+TXN00002,2019-11-05 20:18:59,EMP0292,Alan Colon,Eğitim,Langworth Llc,Diğer,11.95,"Riverton, WY",0,False,,0.0,725464
+TXN00003,2020-04-21 15:07:04,EMP0154,Allison Ayala,Genel,Schuppe Llc,Etkinlik & Organizasyon,36.32,"Fort Myers, FL",0,False,,0.0,1144258
+TXN00004,2020-05-17 16:05:19,EMP0566,Amanda Vance,Sağlık,"Yost, Schamberger And Windler",Diğer,26.28,"Sterling City, TX",0,False,,0.0,1201536
+TXN00005,2019-05-12 09:15:36,EMP0015,Kurt Peters,Bilgi Teknolojileri,"Labadie, Treutel And Bode",Yazılım & Lisans,94.9,"Kissee Mills, MO",0,False,,0.0,266119
+TXN00006,2019-04-07 20:20:38,EMP0460,James Cooper,Operasyon & Lojistik,"Boehm, Block And Jakubowski",Diğer,5.49,"Huntsville, AL",0,False,,0.0,188657
+TXN00007,2019-07-15 07:10:58,EMP0112,Jacqueline Allen,Finans & Muhasebe,Jast-Mcdermott,Ofis Malzemesi,9.88,"Greenwood, IN",0,False,,0.0,440314
+TXN00008,2019-04-13 16:26:41,EMP0741,Tami Forbes,Genel,Beier And Sons,Ekipman & Donanım,16.09,"Barnstable, MA",0,False,,0.0,200911
+TXN00009,2020-05-16 18:36:19,EMP0258,Melissa Flores,Sağlık,Connelly Plc,Temsil & Ağırlama,167.12,"Huntington Beach, CA",0,False,,0.0,1199403
+TXN00010,2020-01-08 07:44:26,EMP0760,Michelle Johnston,Bilgi Teknolojileri,"Osinski, Ledner And Leuschke",Ofis Malzemesi,194.88,"Roma, TX",0,False,,0.0,937168
+TXN00011,2019-02-02 23:12:40,EMP0549,Janet Turner,Bilgi Teknolojileri,Mohr Inc,Ofis Malzemesi,831.73,"Shields, ND",1,False,,0.0,55417
+TXN00012,2020-02-05 00:50:34,EMP0097,Maureen Garza,Genel,"Ferry, Reichel And Dubuque",Ofis Malzemesi,86.49,"Saint Louis, MO",0,False,,0.0,984977
+TXN00013,2020-06-01 20:34:39,EMP0130,Carrie Washington,Genel,"Runte, Green And Emard",Sağlık & Spor,51.47,"Kingsford Heights, IN",0,False,,0.0,1242290
+TXN00014,2019-02-04 15:29:26,EMP0899,Dawn Stephens,Genel,Schoen-Quigley,Diğer,5.77,"Oran, IA",0,False,,0.0,58846
+TXN00015,2020-05-16 12:06:02,EMP0260,Cody Miller,Bilgi Teknolojileri,Reilly And Sons,Sağlık & Spor,9.93,"Mooresville, NC",0,False,,0.0,1198779
+TXN00016,2020-06-20 21:30:40,EMP0948,Charles Moreno,Genel,Bashirian Group,Yazılım & Lisans,5.06,"Key West, FL",0,False,,0.0,1294980
+TXN00017,2019-05-18 21:46:34,EMP0021,Melissa Brown,Yönetim,"Reinger, Weissnat And Strosin",Temsil & Ağırlama,36.83,"Washington, DC",0,False,,0.0,280558
+TXN00018,2019-05-01 15:25:24,EMP0254,Patricia Gonzalez,Satış & Pazarlama,"Streich, Rolfson And Wilderman",Diğer,28.17,"Stephensport, KY",0,False,,0.0,242347
+TXN00019,2019-12-16 12:17:11,EMP0940,Robert Williams,Bilgi Teknolojileri,Thiel Plc,Diğer,8.12,"Bay City, MI",0,False,,0.0,855783
+TXN00020,2019-02-15 01:16:32,EMP0783,Taylor Khan,Hukuk & Uyum,Pouros-Haag,Ofis Malzemesi,5.5,"North Washington, PA",0,False,,0.0,76760
+TXN00021,2020-03-17 22:11:39,EMP0864,Ashley Whitehead,Bilgi Teknolojileri,Kautzer And Sons,Diğer,21.54,"Cowlesville, NY",0,False,,0.0,1065591
+TXN00022,2019-11-04 21:27:29,EMP0513,Jason Singh,Satış & Pazarlama,Lynch-Wisozk,Ekipman & Donanım,194.25,"Murrayville, IL",0,False,,0.0,723862
+TXN00023,2019-09-26 12:11:20,EMP0421,Judy Hogan,Satış & Pazarlama,Frami Group,Etkinlik & Organizasyon,38.3,"Brooklyn, NY",0,False,,0.0,632662
+TXN00024,2019-03-08 02:36:54,EMP0498,Robert Haynes,Bilgi Teknolojileri,Smitham-Boehm,Ofis Malzemesi,54.86,"Johns Island, SC",0,False,,0.0,118351
+TXN00025,2019-08-04 23:50:55,EMP0669,Kevin Elliott,Eğitim,Kassulke Plc,Yazılım & Lisans,966.41,"Newark Valley, NY",1,False,,0.0,498676
+TXN00026,2019-01-08 19:06:13,EMP0407,Juan Sherman,Genel,Lubowitz-Walter,Diğer,21.4,"San Antonio, TX",0,False,,0.0,13827
+TXN00027,2019-01-01 23:33:01,EMP0917,Katherine Tucker,Bilgi Teknolojileri,Beier And Sons,Ekipman & Donanım,173.49,"Lakeland, FL",0,False,,0.0,2362
+TXN00028,2019-06-17 23:04:37,EMP0934,Cassandra Sanders,Ar-Ge,Quitzon-Goyette,Ekipman & Donanım,18.17,"Paauilo, HI",0,False,,0.0,364513
+TXN00029,2020-02-01 01:32:21,EMP0636,Kyle Park,Genel,Metz-Boehm,Ofis Malzemesi,4.95,"Mount Perry, OH",0,False,,0.0,977160
+TXN00030,2020-03-30 03:32:33,EMP0128,Daniel Boyd,Genel,Kiehn-Emmerich,Ofis Malzemesi,110.74,"Egan, LA",0,False,,0.0,1091828
+TXN00031,2020-04-04 21:42:45,EMP0281,Christopher Sheppard,Sağlık,"Cronin, Kshlerin And Weber",Sağlık & Spor,74.44,"Bristow, IN",0,False,,0.0,1104427
+TXN00032,2019-08-16 17:05:14,EMP0113,Christopher Johnson,Genel,Terry Ltd,Ekipman & Donanım,79.39,"Greenville, OH",0,False,,0.0,530233
+TXN00033,2019-11-04 20:15:11,EMP0507,Christie Mendoza,Bilgi Teknolojileri,Frami Group,Etkinlik & Organizasyon,36.15,"Monitor, WA",0,False,,0.0,723691
+TXN00034,2020-02-08 16:22:20,EMP0120,Vincent Mueller,Bilgi Teknolojileri,Swift Plc,Diğer,55.4,"Dallas, TX",0,False,,0.0,990185
+TXN00035,2019-08-18 23:12:11,EMP0811,Ashley Whitney,Bilgi Teknolojileri,"Mueller, Gerhold And Mueller",Sağlık & Spor,77.51,"Jones, AL",0,False,,0.0,538248
+TXN00036,2020-03-16 20:45:08,EMP0150,Curtis Young,Genel,"O'Connell, Botsford And Hand",Ekipman & Donanım,67.49,"Falconer, NY",0,False,,0.0,1062239
+TXN00037,2020-05-31 19:34:34,EMP0711,Karen Warren,Eğitim,Kovacek Ltd,Seyahat,1.18,"Hahira, GA",0,False,,0.0,1238238
+TXN00038,2020-02-19 14:59:45,EMP0674,Nicholas Mcmahon,Bilgi Teknolojileri,Renner Ltd,Ekipman & Donanım,17.74,"Heiskell, TN",0,False,,0.0,1009437
+TXN00039,2020-05-17 04:23:18,EMP0050,Stephen Lopez,Bilgi Teknolojileri,Gislason Group,Diğer,36.04,"Olmsted, IL",0,False,,0.0,1200317
+TXN00040,2019-04-14 22:27:20,EMP0450,Frank Anderson,Ar-Ge,Lynch-Wisozk,Ekipman & Donanım,1.24,"Naples, FL",0,False,,0.0,204775
+TXN00041,2020-01-16 19:15:30,EMP0743,Meredith Campbell,Ar-Ge,Bartoletti And Sons,Diğer,40.92,"Hedrick, IA",0,False,,0.0,951332
+TXN00042,2019-06-01 01:34:20,EMP0741,Tami Forbes,Genel,"Streich, Hansen And Veum",Ulaşım,59.26,"Barnstable, MA",0,False,,0.0,314122
+TXN00043,2019-08-25 23:12:06,EMP0375,Billy Gallagher,Genel,Lubowitz-Walter,Diğer,149.73,"Greenwich, NJ",0,False,,0.0,557943
+TXN00044,2019-05-21 05:03:31,EMP0335,Christopher Gomez,Satış & Pazarlama,Schmeler Inc,Diğer,5.13,"Tickfaw, LA",0,False,,0.0,287402
+TXN00045,2019-12-19 00:43:01,EMP0634,Melinda Gutierrez,Genel,Kling Inc,Ulaşım,59.59,"Eureka, IL",0,False,,0.0,865718
+TXN00046,2019-09-28 02:56:12,EMP0195,Greg Villarreal,Genel,"Labadie, Treutel And Bode",Yazılım & Lisans,81.44,"Schaefferstown, PA",0,False,,0.0,635927
+TXN00047,2019-01-05 22:05:50,EMP0182,Helen Campbell,Genel,"Gottlieb, Considine And Schultz",Yazılım & Lisans,1177.79,"Browning, MO",1,False,,0.0,7509
+TXN00048,2019-12-06 17:56:08,EMP0208,Morgan Smith,Genel,Dickinson Ltd,Diğer,54.7,"Grover, NC",0,False,,0.0,808787
+TXN00049,2019-06-20 22:15:15,EMP0400,Jennifer Scott,Bilgi Teknolojileri,Pacocha-Bauch,Ofis Malzemesi,872.27,"Randolph, OH",1,False,,0.0,370620
+TXN00050,2019-01-26 06:40:03,EMP0197,Linda Sanchez,İnsan Kaynakları,"Rippin, Kub And Mann",Diğer,132.12,"Jermyn, PA",0,False,,0.0,42344
+TXN00051,2019-03-16 05:43:23,EMP0343,Jeremy Moore,Sağlık,Hudson-Ratke,Ofis Malzemesi,91.28,"Lubbock, TX",0,False,,0.0,136411
+TXN00052,2019-09-01 11:04:18,EMP0179,Lisa Lin,Danışmanlık,"Schaefer, Maggio And Daugherty",Ulaşım,58.95,"Lomax, IL",0,False,,0.0,575447
+TXN00053,2019-03-11 06:31:09,EMP0811,Ashley Whitney,Bilgi Teknolojileri,Heller-Langosh,Ulaşım,72.19,"Jones, AL",0,False,,0.0,126678
+TXN00054,2020-03-19 07:59:11,EMP0865,Melissa Meza,Genel,Lockman Ltd,Ofis Malzemesi,200.8,"Loxahatchee, FL",0,False,,0.0,1067874
+TXN00055,2020-06-09 01:24:25,EMP0613,Derrick Flores,Bilgi Teknolojileri,Kerluke Inc,Diğer,6.97,"Oakland, TN",0,False,,0.0,1263127
+TXN00056,2019-12-27 10:52:58,EMP0915,Scott Edwards,Bilgi Teknolojileri,Kuhn Llc,Ofis Malzemesi,1.77,"Pembroke, NC",0,False,,0.0,901672
+TXN00057,2020-03-01 18:31:43,EMP0289,Joseph Wagner,Sağlık,Waelchi-Wolf,Diğer,36.9,"North Judson, IN",0,False,,0.0,1026792
+TXN00058,2019-12-08 07:36:59,EMP0880,Monique Martin,Bilgi Teknolojileri,Ledner-Pfannerstill,Ulaşım,65.02,"Ratcliff, TX",0,False,,0.0,816785
+TXN00059,2019-08-12 00:35:52,EMP0320,Joanna Hudson,Danışmanlık,Collier Inc,Ofis Malzemesi,44.41,"Sebring, FL",0,False,,0.0,518640
+TXN00060,2019-05-02 08:00:41,EMP0108,Joseph Nixon,Genel,"Schaefer, Maggio And Daugherty",Ulaşım,82.49,"Tyaskin, MD",0,False,,0.0,243498
+TXN00061,2020-02-09 17:39:29,EMP0382,Nathan Martinez,Bilgi Teknolojileri,Stiedemann Ltd,Temsil & Ağırlama,45.73,"Oconto Falls, WI",0,False,,0.0,992557
+TXN00062,2019-11-11 10:42:58,EMP0826,Lisa Mendez,Ar-Ge,"Schumm, Bauch And Ondricka",Ofis Malzemesi,347.23,"Lahoma, OK",1,False,,0.0,738033
+TXN00063,2020-01-02 10:37:38,EMP0468,William Cannon,Satış & Pazarlama,Jacobi And Sons,Ofis Malzemesi,7.99,"Union, WV",0,False,,0.0,926599
+TXN00064,2019-05-30 16:18:39,EMP0457,Randy Murphy,Bilgi Teknolojileri,Jewess Llc,Ofis Malzemesi,2.55,"Ballwin, MO",0,False,,0.0,310664
+TXN00065,2019-03-01 10:10:18,EMP0367,Roberta Mccarthy,Genel,Parisian And Sons,Ulaşım,43.28,"Plymouth, CT",0,False,,0.0,103033
+TXN00066,2020-02-04 02:01:01,EMP0884,Valerie Clark,Bilgi Teknolojileri,"Lind, Huel And Mcclure",Ulaşım,52.34,"Lowell, OR",0,False,,0.0,983883
+TXN00067,2019-03-24 16:00:13,EMP0807,Maria Roy,Genel,Schmeler-Howe,Diğer,23.43,"Sheffield, MA",0,False,,0.0,156232
+TXN00068,2019-06-01 06:34:26,EMP0243,Mary Schmidt,Ar-Ge,"Goyette, Howell And Collier",Ofis Malzemesi,6.27,"New York City, NY",0,False,,0.0,314659
+TXN00069,2019-03-27 15:12:26,EMP0600,Paula Estrada,Genel,Kutch-Ferry,Ekipman & Donanım,65.87,"Spencer, SD",0,False,,0.0,163013
+TXN00070,2020-06-08 04:18:28,EMP0744,Phillip Robertson,Ar-Ge,"Streich, Hansen And Veum",Ulaşım,72.23,"Harrodsburg, IN",0,False,,0.0,1259369
+TXN00071,2019-11-29 17:03:47,EMP0039,Jessica Jordan,Genel,Gislason Group,Seyahat,7.6,"Coleharbor, ND",0,False,,0.0,777785
+TXN00072,2019-07-17 08:37:11,EMP0509,Lawrence Frost,Bilgi Teknolojileri,Koepp-Parker,Ofis Malzemesi,107.91,"Kittery Point, ME",0,False,,0.0,445611
+TXN00073,2019-11-03 17:42:24,EMP0931,Robert Drake,Genel,Nolan-Williamson,Diğer,42.36,"Burbank, OK",0,False,,0.0,720124
+TXN00074,2019-10-07 06:43:38,EMP0380,Michael Jackson,Tasarım & Kreatif,Donnelly Llc,Etkinlik & Organizasyon,187.8,"Pea Ridge, AR",0,False,,0.0,658159
+TXN00075,2019-02-02 07:34:36,EMP0111,Daniel Briggs,Sağlık,Emard Inc,Ulaşım,89.71,"Moriarty, NM",0,False,,0.0,54379
+TXN00076,2019-12-04 00:48:43,EMP0826,Lisa Mendez,Ar-Ge,Kling Inc,Ulaşım,60.16,"Lahoma, OK",0,False,,0.0,799317
+TXN00077,2020-02-01 20:07:47,EMP0538,Angela Edwards,Eğitim,"Zemlak, Tillman And Cremin",Diğer,6.9,"Lithopolis, OH",0,False,,0.0,978742
+TXN00078,2019-12-19 22:15:06,EMP0220,Jessica Perez,Bilgi Teknolojileri,Monahan-Morar,Diğer,27.52,"Superior, AZ",0,False,,0.0,868982
+TXN00079,2020-04-23 12:10:56,EMP0705,Michelle Gregory,Bilgi Teknolojileri,Mcdermott-Rice,Diğer,69.65,"Edisto Island, SC",0,False,,0.0,1147778
+TXN00080,2019-05-06 16:01:03,EMP0937,Andrea Cruz,Bilgi Teknolojileri,Erdman-Ebert,Diğer,2.79,"Mifflin, PA",0,False,,0.0,254299
+TXN00081,2019-01-26 08:30:38,EMP0811,Ashley Whitney,Bilgi Teknolojileri,Rodriguez Group,Ulaşım,56.66,"Jones, AL",0,False,,0.0,42422
+TXN00082,2019-02-05 08:23:08,EMP0722,Tammy Davis,Sağlık,"Schoen, Kuphal And Nitzsche",Ofis Malzemesi,206.64,"Moundsville, WV",0,False,,0.0,60538
+TXN00083,2019-01-20 15:51:53,EMP0521,Keith Sanders,Satış & Pazarlama,"Roberts, Ryan And Smith",Diğer,3.09,"Moorhead, MS",0,False,,0.0,32858
+TXN00084,2019-11-25 15:08:04,EMP0797,Daniel Jones,Bilgi Teknolojileri,"Lowe, Dietrich And Erdman",Diğer,109.69,"Huntsville, AL",0,False,,0.0,770156
+TXN00085,2020-02-16 13:48:20,EMP0709,James Lynch,Bilgi Teknolojileri,Reilly Llc,Ekipman & Donanım,77.09,"Utica, PA",0,False,,0.0,1004029
+TXN00086,2019-02-05 19:27:05,EMP0246,Erica Walker,Bilgi Teknolojileri,Connelly-Carter,Ekipman & Donanım,44.38,"Stayton, OR",0,False,,0.0,61696
+TXN00087,2019-07-02 09:56:58,EMP0572,Joanne Williams,Bilgi Teknolojileri,"Rutherford, Homenick And Bergstrom",Ofis Malzemesi,49.26,"Altonah, UT",0,False,,0.0,404392
+TXN00088,2019-04-09 19:00:43,EMP0460,James Cooper,Operasyon & Lojistik,Shields-Wunsch,Sağlık & Spor,267.84,"Huntsville, AL",0,False,,0.0,193443
+TXN00089,2019-09-01 14:06:39,EMP0923,Amber Lewis,Sağlık,Ratke And Sons,Sağlık & Spor,18.78,"Pembroke Township, IL",0,False,,0.0,576047
+TXN00090,2019-07-14 05:14:04,EMP0897,Kathleen Nash,Finans & Muhasebe,"Labadie, Treutel And Bode",Yazılım & Lisans,9.25,"Cromona, KY",0,False,,0.0,436159
+TXN00091,2019-04-28 12:38:57,EMP0376,Theresa Blackwell,Bilgi Teknolojileri,Little Ltd,Diğer,28.12,"Shenandoah Junction, WV",0,False,,0.0,234886
+TXN00092,2019-11-30 19:47:15,EMP0070,Jessica Werner,Yönetim,Buckridge Plc,Diğer,8.63,"Center Point, WV",0,False,,0.0,782624
+TXN00093,2019-11-16 06:52:21,EMP0558,Adriana Harvey,Genel,Buckridge Plc,Diğer,9.12,"Unionville, MO",0,False,,0.0,747404
+TXN00094,2019-08-15 03:08:15,EMP0385,Debra Eaton,Tasarım & Kreatif,Bartoletti-Wunsch,Ulaşım,52.89,"Paradise Valley, AZ",0,False,,0.0,526666
+TXN00095,2019-10-26 15:47:21,EMP0446,Audrey Hickman,Genel,Connelly-Carter,Ekipman & Donanım,33.91,"Mount Clemens, MI",0,False,,0.0,700858
+TXN00096,2020-05-14 03:45:19,EMP0264,Sharon Smith,Bilgi Teknolojileri,"Towne, Walker And Borer",Ofis Malzemesi,65.58,"Sun City, CA",0,False,,0.0,1194735
+TXN00097,2019-08-24 23:58:05,EMP0746,Rebecca Farley,Sağlık,Hills-Boyer,Diğer,2.22,"Downsville, NY",0,False,,0.0,554106
+TXN00098,2019-12-12 20:23:58,EMP0775,Jim Johnson,Sağlık,Mante Group,Diğer,1.86,"Gretna, LA",0,False,,0.0,837163
+TXN00099,2019-08-05 14:34:53,EMP0633,Bridget Bowen,Eğitim,Bartoletti And Sons,Diğer,104.72,"Port Saint Lucie, FL",0,False,,0.0,500766
+TXN00100,2019-09-09 06:00:49,EMP0364,Christopher Patterson,Yönetim,"Reichert, Shanahan And Hayes",Yazılım & Lisans,153.02,"Timberville, VA",0,False,,0.0,594555
+TXN00101,2019-04-07 06:28:32,EMP0281,Christopher Sheppard,Sağlık,Gleason-Macejkovic,Yazılım & Lisans,88.33,"Bristow, IN",0,False,,0.0,186691
+TXN00102,2020-02-20 01:31:07,EMP0407,Juan Sherman,Genel,Ortiz Group,Ofis Malzemesi,33.17,"San Antonio, TX",0,False,,0.0,1010042
+TXN00103,2020-03-30 11:23:38,EMP0376,Theresa Blackwell,Bilgi Teknolojileri,"Schuppe, Nolan And Hoeger",Ofis Malzemesi,9.74,"Shenandoah Junction, WV",0,False,,0.0,1092594
+TXN00104,2020-03-24 11:08:16,EMP0368,Nathan Mayer,Yönetim,Terry-Huel,Yazılım & Lisans,4.56,"Schaumburg, IL",0,False,,0.0,1079969
+TXN00105,2020-05-12 12:35:00,EMP0742,Susan Hardy,Hukuk & Uyum,Thompson-Gleason,Sağlık & Spor,57.64,"Manistique, MI",0,False,,0.0,1191227
+TXN00106,2019-08-30 05:34:21,EMP0696,Margaret Williams,Bilgi Teknolojileri,Kris-Weimann,Diğer,86.77,"Surrency, GA",0,False,,0.0,568567
+TXN00107,2019-08-05 11:31:04,EMP0936,Diana Jacobs,Sağlık,"Rutherford, Homenick And Bergstrom",Ofis Malzemesi,46.19,"Viola, AR",0,False,,0.0,500196
+TXN00108,2020-03-09 22:25:01,EMP0151,William Jenkins,Bilgi Teknolojileri,"Feil, Hilpert And Koss",Temsil & Ağırlama,52.86,"Harper, TX",0,False,,0.0,1046450
+TXN00109,2019-08-13 13:52:58,EMP0914,Elizabeth Glover,Genel,Mohr Inc,Ofis Malzemesi,1.7,"West Monroe, LA",0,False,,0.0,523340
+TXN00110,2020-01-08 16:31:45,EMP0595,Crystal Fuller,Genel,Friesen Ltd,Sağlık & Spor,20.06,"Issaquah, WA",0,False,,0.0,937667
+TXN00111,2019-07-12 15:26:41,EMP0867,Gina Gomez,Bilgi Teknolojileri,Larkin Ltd,Diğer,31.74,"Stirling, NJ",0,False,,0.0,431209
+TXN00112,2019-03-27 00:39:09,EMP0313,Kayla Jones,Genel,"Stroman, Hudson And Erdman",Ulaşım,101.55,"East Canaan, CT",0,False,,0.0,162111
+TXN00113,2020-06-02 13:55:42,EMP0922,Amanda Gomez,Tasarım & Kreatif,Jerde-Hermann,Seyahat,4.31,"Dallas, TX",0,False,,0.0,1244901
+TXN00114,2019-07-08 17:56:46,EMP0610,Sara Ramirez,Genel,Shanahan-Lehner,Diğer,21.97,"Birmingham, IA",0,False,,0.0,422391
+TXN00115,2020-05-30 05:04:13,EMP0700,Angela West,Genel,"Wiza, Schaden And Stark",Diğer,5.51,"Mansfield, OH",0,False,,0.0,1233664
+TXN00116,2019-05-17 00:55:44,EMP0882,David Bonilla,Ar-Ge,Funk Group,Ofis Malzemesi,40.84,"West Green, GA",0,False,,0.0,276440
+TXN00117,2020-06-07 04:30:16,EMP0097,Maureen Garza,Genel,"Casper, Hand And Zulauf",Ofis Malzemesi,99.58,"Saint Louis, MO",0,False,,0.0,1255992
+TXN00118,2019-06-24 17:23:23,EMP0470,Dorothy Thomas,Bilgi Teknolojileri,"Langosh, Wintheiser And Hyatt",Temsil & Ağırlama,8.51,"Milford, OH",0,False,,0.0,382979
+TXN00119,2020-01-11 11:06:42,EMP0501,Jeffrey Smith,Genel,"Goldner, Kovacek And Abbott",Ofis Malzemesi,95.11,"Bridger, MT",0,False,,0.0,941614
+TXN00120,2020-06-09 20:45:24,EMP0544,Sarah Scott,Tasarım & Kreatif,"Runte, Green And Emard",Sağlık & Spor,21.53,"Wichita, KS",0,False,,0.0,1266122
+TXN00121,2019-06-27 12:23:00,EMP0347,Brent Terrell,Bilgi Teknolojileri,Bernhard-Lesch,Temsil & Ağırlama,91.39,"Port Ewen, NY",0,False,,0.0,389065
+TXN00122,2019-02-25 01:25:15,EMP0109,Alicia Hawkins,Bilgi Teknolojileri,Conroy-Cruickshank,Ulaşım,66.35,"Harwood, MD",0,False,,0.0,93601
+TXN00123,2019-07-28 14:12:41,EMP0436,Jennifer Banks,Genel,Botsford And Sons,Ekipman & Donanım,46.43,"Moravian Falls, NC",0,False,,0.0,476736
+TXN00124,2019-11-29 18:00:58,EMP0575,Lindsay Wilson,Bilgi Teknolojileri,Sawayn Plc,Ofis Malzemesi,9.94,"Centerview, MO",0,False,,0.0,777870
+TXN00125,2020-03-26 18:38:50,EMP0627,Steven Sanders,Yönetim,Wilkinson Plc,Diğer,33.46,"Ozawkie, KS",0,False,,0.0,1084598
+TXN00126,2019-09-22 22:07:24,EMP0883,Sarah Bell,Yönetim,"Schmeler, Bashirian And Price",Yazılım & Lisans,7.77,"Galatia, IL",0,False,,0.0,625351
+TXN00127,2020-05-14 12:33:51,EMP0132,Robert Evans,Bilgi Teknolojileri,Little Ltd,Diğer,166.25,"Sachse, TX",0,False,,0.0,1195242
+TXN00128,2019-01-23 21:48:58,EMP0128,Daniel Boyd,Genel,Terry Ltd,Ekipman & Donanım,80.42,"Egan, LA",0,False,,0.0,39361
+TXN00129,2020-01-27 06:39:33,EMP0563,Kristina Stewart,Sağlık,Goodwin-Nitzsche,Ofis Malzemesi,210.75,"Newhall, CA",0,False,,0.0,970059
+TXN00130,2019-11-07 06:58:59,EMP0732,Mary Lewis,Bilgi Teknolojileri,Friesen-Stamm,Ulaşım,62.3,"Bay Minette, AL",0,False,,0.0,727822
+TXN00131,2019-06-20 12:35:18,EMP0236,Craig Dunn,Bilgi Teknolojileri,Frami Group,Etkinlik & Organizasyon,68.79,"New Boston, IL",0,False,,0.0,369456
+TXN00132,2019-04-11 22:16:22,EMP0187,Samuel Sandoval,Bilgi Teknolojileri,Hyatt-Blick,Seyahat,8.15,"Mounds, OK",0,False,,0.0,197151
+TXN00133,2019-06-18 13:05:54,EMP0834,Carrie Lewis,Genel,Morissette Plc,Ofis Malzemesi,17.18,"Pecos, TX",0,False,,0.0,365550
+TXN00134,2019-04-01 07:45:29,EMP0854,John Myers,Bilgi Teknolojileri,Morar Inc,Ofis Malzemesi,58.26,"Highland, IN",0,False,,0.0,174143
+TXN00135,2020-03-10 23:51:28,EMP0382,Nathan Martinez,Bilgi Teknolojileri,Bogisich-Weimann,Diğer,52.73,"Oconto Falls, WI",0,False,,0.0,1049746
+TXN00136,2020-05-31 18:28:31,EMP0717,Monica Tucker,Sağlık,"Swaniawski, Lowe And Robel",Ofis Malzemesi,1.93,"Smiths Grove, KY",0,False,,0.0,1238032
+TXN00137,2020-03-29 03:35:46,EMP0575,Lindsay Wilson,Bilgi Teknolojileri,Bins-Rice,Ulaşım,58.03,"Centerview, MO",0,False,,0.0,1089052
+TXN00138,2020-06-09 00:15:55,EMP0464,Amber Perez,Finans & Muhasebe,"Lehner, Mosciski And King",Diğer,15.15,"Fulton, SD",0,False,,0.0,1262973
+TXN00139,2019-06-30 10:40:05,EMP0804,Martin Duarte,Sağlık,"Wintheiser, Dietrich And Schimmel",Diğer,5.15,"Luzerne, MI",0,False,,0.0,397349
+TXN00140,2019-11-01 23:05:40,EMP0925,Julia Bell,Bilgi Teknolojileri,Botsford Plc,Ekipman & Donanım,63.9,"West Sayville, NY",0,False,,0.0,715155
+TXN00141,2019-12-09 17:04:29,EMP0943,Jeremy Roberson,Danışmanlık,Carroll Plc,Sağlık & Spor,75.35,"Graniteville, VT",0,False,,0.0,825756
+TXN00142,2019-05-08 16:07:40,EMP0235,Lori Rodriguez,Bilgi Teknolojileri,Hackett Group,Seyahat,8.12,"Creola, OH",0,False,,0.0,258086
+TXN00143,2019-04-22 04:22:27,EMP0031,Cristian Jones,Hukuk & Uyum,Lockman Ltd,Ofis Malzemesi,53.32,"Wilmette, IL",0,False,,0.0,221273
+TXN00144,2019-08-29 14:42:21,EMP0235,Lori Rodriguez,Bilgi Teknolojileri,Gerhold Llc,Ekipman & Donanım,21.62,"Creola, OH",0,False,,0.0,567020
+TXN00145,2019-07-21 14:18:11,EMP0670,Christopher Rodgers,Bilgi Teknolojileri,Jakubowski Inc,Ekipman & Donanım,75.56,"Fenelton, PA",0,False,,0.0,457028
+TXN00146,2019-10-22 07:50:20,EMP0672,Gary Martinez,Genel,Strosin-Cruickshank,Ofis Malzemesi,62.33,"Reno, NV",0,False,,0.0,692651
+TXN00147,2020-02-26 02:35:03,EMP0535,Cory Thomas,Tasarım & Kreatif,Mohr-Bayer,Yazılım & Lisans,87.41,"Williamsburg, MO",0,False,,0.0,1020906
+TXN00148,2019-05-01 23:23:53,EMP0013,Jessica Dominguez,Tasarım & Kreatif,Yost-Rogahn,Diğer,21.99,"Gadsden, AL",1,False,,0.0,243026
+TXN00149,2019-08-26 03:36:58,EMP0696,Margaret Williams,Bilgi Teknolojileri,Gislason Group,Diğer,461.81,"Surrency, GA",0,False,,0.0,558560
+TXN00150,2020-04-12 02:16:46,EMP0230,Teresa Clark,Tasarım & Kreatif,Goodwin-Nitzsche,Ofis Malzemesi,132.8,"Noonan, ND",0,False,,0.0,1120893
+TXN00151,2019-01-08 23:52:57,EMP0537,Jose Vasquez,Genel,Stiedemann Inc,Diğer,2.15,"Lake Jackson, TX",0,False,,0.0,14402
+TXN00152,2019-07-22 23:10:49,EMP0811,Ashley Whitney,Bilgi Teknolojileri,Leannon-Ward,Temsil & Ağırlama,17.91,"Jones, AL",0,False,,0.0,462664
+TXN00153,2020-01-10 23:21:53,EMP0492,Samuel Sellers,Bilgi Teknolojileri,Padberg-Welch,Ofis Malzemesi,274.73,"Kenner, LA",1,False,,0.0,940826
+TXN00154,2020-02-14 03:55:46,EMP0250,Mary Wall,Yönetim,"Lehner, Mosciski And King",Diğer,7.82,"Plainfield, NJ",0,False,,0.0,999568
+TXN00155,2019-01-21 21:28:44,EMP0488,Lauren Moreno,Genel,"Klocko, Runolfsdottir And Breitenberg",Sağlık & Spor,111.49,"Heislerville, NJ",0,False,,0.0,35739
+TXN00156,2019-05-27 17:31:11,EMP0081,Eric Preston,Genel,Wuckert-Goldner,Ekipman & Donanım,217.74,"Mesa, ID",0,False,,0.0,304130
+TXN00157,2019-02-17 13:20:09,EMP0601,Kimberly Gonzalez,Ar-Ge,Morissette Llc,Etkinlik & Organizasyon,121.55,"Bauxite, AR",0,False,,0.0,80454
+TXN00158,2020-05-21 12:00:37,EMP0930,Juan Henry,Eğitim,Botsford Plc,Ekipman & Donanım,90.73,"Turner, MT",0,False,,0.0,1210969
+TXN00159,2019-07-16 17:41:53,EMP0370,Christopher Carr,Genel,Dietrich-Fadel,Sağlık & Spor,3.6,"Lakeland, FL",0,False,,0.0,444439
+TXN00160,2020-03-16 20:06:03,EMP0367,Roberta Mccarthy,Genel,"Nicolas, Hills And Mcglynn",Etkinlik & Organizasyon,59.44,"Plymouth, CT",0,False,,0.0,1062117
+TXN00161,2019-08-18 14:52:35,EMP0677,Richard Marshall,Genel,"Reinger, Weissnat And Strosin",Temsil & Ağırlama,147.7,"Greenbush, VA",0,False,,0.0,536570
+TXN00162,2019-03-15 19:28:58,EMP0179,Lisa Lin,Danışmanlık,Bernhard-Lesch,Temsil & Ağırlama,3.12,"Lomax, IL",0,False,,0.0,135425
+TXN00163,2019-02-04 12:51:20,EMP0452,Scott Martin,Operasyon & Lojistik,Jast-Mcdermott,Ofis Malzemesi,34.03,"Kensington, MD",0,False,,0.0,58521
+TXN00164,2019-09-05 21:15:03,EMP0352,Sarah Bishop,Sağlık,Skiles Llc,Ekipman & Donanım,10.48,"Meridian, TX",0,False,,0.0,586028
+TXN00165,2019-07-10 06:59:24,EMP0312,Gabriella Jordan,Tasarım & Kreatif,Kerluke Plc,Diğer,7.35,"Howes Cave, NY",0,False,,0.0,425937
+TXN00166,2019-03-22 16:23:46,EMP0199,Stephanie Crane,Genel,Homenick Llc,Diğer,65.49,"Central, IN",0,False,,0.0,150844
+TXN00167,2019-08-28 15:35:31,EMP0744,Phillip Robertson,Ar-Ge,Ratke And Sons,Sağlık & Spor,27.78,"Harrodsburg, IN",0,False,,0.0,564890
+TXN00168,2019-10-19 09:15:07,EMP0286,Catherine Weber,Eğitim,Rempel Plc,Ofis Malzemesi,54.5,"West Henrietta, NY",0,False,,0.0,684201
+TXN00169,2020-03-10 23:55:07,EMP0465,Christopher Castaneda,Bilgi Teknolojileri,Wilkinson Ltd,Etkinlik & Organizasyon,51.56,"High Rolls Mountain Park, NM",0,False,,0.0,1049760
+TXN00170,2019-02-19 22:14:45,EMP0305,Tyler Wright,Bilgi Teknolojileri,Pouros-Conroy,Ofis Malzemesi,598.9,"Warren, MI",1,False,,0.0,85977
+TXN00171,2019-10-21 12:05:10,EMP0083,Samuel Farrell,Genel,O'Connell-Ullrich,Ekipman & Donanım,87.09,"Cleveland, AL",0,False,,0.0,690450
+TXN00172,2020-03-31 01:38:30,EMP0362,Tyler Garcia,Sağlık,Wuckert-Walter,Ofis Malzemesi,48.57,"Doe Hill, VA",0,False,,0.0,1094799
+TXN00173,2019-12-09 12:45:43,EMP0279,Jill Jacobs,Danışmanlık,Osinski Inc,Diğer,5.9,"Brandon, FL",0,False,,0.0,824422
+TXN00174,2019-09-22 19:40:52,EMP0290,James Bishop,Genel,"Mcdermott, Osinski And Morar",Ekipman & Donanım,20.44,"Cecilton, MD",0,False,,0.0,624940
+TXN00175,2020-05-26 03:56:50,EMP0098,John Robertson,Eğitim,"Streich, Hansen And Veum",Ulaşım,73.21,"Indianapolis, IN",0,False,,0.0,1223602
+TXN00176,2019-02-26 15:08:27,EMP0171,Matthew Lambert,Sağlık,Stark-Koss,Ekipman & Donanım,43.67,"New Holstein, WI",0,False,,0.0,97092
+TXN00177,2020-03-27 14:27:26,EMP0900,Hailey Rhodes,Genel,Pacocha-Weissnat,Diğer,56.73,"Michigan, ND",0,False,,0.0,1086003
+TXN00178,2020-04-20 04:58:03,EMP0167,Danielle Walker,Yönetim,Huels-Nolan,Ulaşım,142.53,"Powell Butte, OR",0,False,,0.0,1139889
+TXN00179,2019-02-12 14:52:04,EMP0141,Michael Johnson,Genel,Stoltenberg-Beatty,Ofis Malzemesi,6.33,"Norwalk, CA",0,False,,0.0,73176
+TXN00180,2019-01-15 20:02:39,EMP0725,Sharon Powell,Eğitim,Thiel Plc,Diğer,1.99,"Wendel, CA",0,False,,0.0,26017
+TXN00181,2019-06-03 16:47:24,EMP0404,Margaret Gibson,Bilgi Teknolojileri,Volkman-Predovic,Yazılım & Lisans,1.93,"Scotland, MD",0,False,,0.0,323725
+TXN00182,2019-04-07 22:22:58,EMP0599,David Miller,Genel,Rau-Robel,Diğer,119.34,"Hancock, MD",0,False,,0.0,188983
+TXN00183,2019-01-01 12:26:42,EMP0717,Monica Tucker,Sağlık,Kling-Ernser,Etkinlik & Organizasyon,6.26,"Smiths Grove, KY",0,False,,0.0,974
+TXN00184,2019-08-11 06:39:58,EMP0498,Robert Haynes,Bilgi Teknolojileri,Murray Ltd,Ofis Malzemesi,22.21,"Johns Island, SC",0,False,,0.0,515378
+TXN00185,2019-11-16 13:49:57,EMP0264,Sharon Smith,Bilgi Teknolojileri,Terry-Huel,Yazılım & Lisans,9.6,"Sun City, CA",0,False,,0.0,748091
+TXN00186,2019-06-30 01:02:09,EMP0937,Andrea Cruz,Bilgi Teknolojileri,Donnelly Plc,Diğer,9.25,"Mifflin, PA",0,False,,0.0,396118
+TXN00187,2019-01-05 19:01:59,EMP0539,Teresa Blankenship,Genel,Kautzer And Sons,Diğer,18.53,"Karnack, TX",0,False,,0.0,7278
+TXN00188,2019-07-23 18:52:31,EMP0268,Megan Fernandez,Genel,Hoppe-Parisian,Diğer,25.67,"Woods Cross, UT",0,False,,0.0,464169
+TXN00189,2020-02-21 23:36:42,EMP0293,Shawn King,Genel,Streich Ltd,Ekipman & Donanım,72.97,"Athena, OR",0,False,,0.0,1012778
+TXN00190,2019-05-31 05:37:20,EMP0362,Tyler Garcia,Sağlık,Flatley Group,Diğer,42.49,"Doe Hill, VA",0,False,,0.0,312080
+TXN00191,2020-05-02 11:40:09,EMP0027,Barbara Taylor,Bilgi Teknolojileri,Conroy-Cruickshank,Ulaşım,89.0,"Elberta, MI",0,False,,0.0,1167033
+TXN00192,2020-03-29 23:16:54,EMP0654,Tyler Mills,Genel,Goldner-Lemke,Etkinlik & Organizasyon,5.77,"Elizabethtown, KY",0,False,,0.0,1091331
+TXN00193,2019-02-02 01:28:58,EMP0936,Diana Jacobs,Sağlık,Rempel Plc,Ofis Malzemesi,33.99,"Viola, AR",0,False,,0.0,54068
+TXN00194,2019-11-17 04:08:06,EMP0895,Phillip Delacruz,Bilgi Teknolojileri,Gleason-Macejkovic,Yazılım & Lisans,9.05,"Iliff, CO",0,False,,0.0,749852
+TXN00195,2019-12-15 14:35:55,EMP0851,Jodi Rodriguez,Bilgi Teknolojileri,Botsford Plc,Ekipman & Donanım,86.66,"Walnut Ridge, AR",0,False,,0.0,850159
+TXN00196,2019-07-25 15:43:27,EMP0670,Christopher Rodgers,Bilgi Teknolojileri,Gerhold Llc,Ekipman & Donanım,97.28,"Fenelton, PA",0,False,,0.0,468133
+TXN00197,2019-12-21 20:19:06,EMP0369,Aaron Murray,Yönetim,Wilkinson Plc,Diğer,50.21,"Meadville, MO",0,False,,0.0,877291
+TXN00198,2020-04-02 03:56:24,EMP0705,Michelle Gregory,Bilgi Teknolojileri,"Olson, Becker And Koch",Ulaşım,57.14,"Edisto Island, SC",0,False,,0.0,1099495
+TXN00199,2020-06-04 17:09:19,EMP0519,Margaret Lam,Eğitim,Brown-Greenholt,Etkinlik & Organizasyon,116.54,"Armagh, PA",0,False,,0.0,1250119
+TXN00200,2019-12-15 04:02:12,EMP0599,David Miller,Genel,"Christiansen, Goyette And Schamberger",Ulaşım,63.78,"Hancock, MD",0,False,,0.0,847714
+TXN00201,2019-01-16 16:33:17,EMP0094,Whitney Gallagher,Yönetim,Mante Group,Diğer,52.86,"Deane, KY",0,False,,0.0,27278
+TXN00202,2019-07-11 10:45:28,EMP0568,Tanya Williams,Genel,Ledner-Pfannerstill,Ulaşım,61.39,"Brownville, NY",0,False,,0.0,428381
+TXN00203,2019-11-13 22:24:35,EMP0208,Morgan Smith,Genel,Renner Ltd,Ekipman & Donanım,92.68,"Grover, NC",0,False,,0.0,742930
+TXN00204,2019-02-14 22:30:40,EMP0417,Kathleen Heath,Bilgi Teknolojileri,Donnelly Plc,Diğer,749.92,"Albuquerque, NM",1,False,,0.0,76611
+TXN00205,2020-04-04 17:29:02,EMP0178,Sarah Foster,Yönetim,Abbott-Steuber,Diğer,71.02,"Ford, VA",0,False,,0.0,1104008
+TXN00206,2019-11-19 03:23:18,EMP0347,Brent Terrell,Bilgi Teknolojileri,"Mosciski, Ziemann And Farrell",Yazılım & Lisans,2.82,"Port Ewen, NY",0,False,,0.0,755995
+TXN00207,2019-06-14 02:57:08,EMP0278,Margaret Curtis,Tasarım & Kreatif,Mcdermott-Weimann,Ofis Malzemesi,229.91,"Florence, MS",0,False,,0.0,351249
+TXN00208,2020-06-10 23:58:00,EMP0044,Susan Washington,Genel,O'Keefe-Wisoky,Temsil & Ağırlama,111.17,"May, TX",0,False,,0.0,1268595
+TXN00209,2020-06-09 10:05:05,EMP0664,Renee Walls,Bilgi Teknolojileri,Spinka Inc,Ofis Malzemesi,92.89,"Veedersburg, IN",0,False,,0.0,1264161
+TXN00210,2019-01-06 14:05:11,EMP0955,Benjamin Kim,Ar-Ge,Grimes Llc,Etkinlik & Organizasyon,53.58,"Mc Nabb, IL",0,False,,0.0,8669
+TXN00211,2019-01-28 10:46:47,EMP0925,Julia Bell,Bilgi Teknolojileri,Bauch-Raynor,Ofis Malzemesi,186.25,"West Sayville, NY",0,False,,0.0,46293
+TXN00212,2019-09-07 13:34:05,EMP0713,Mackenzie Smith,Bilgi Teknolojileri,Langworth Llc,Diğer,4.98,"Hooper, NE",0,False,,0.0,589361
+TXN00213,2019-12-29 10:09:25,EMP0719,Tara Richards,Bilgi Teknolojileri,Gerlach Inc,Yazılım & Lisans,497.83,"Keisterville, PA",0,False,,0.0,911625
+TXN00214,2019-12-03 04:05:27,EMP0340,Jeremy Jones,Eğitim,"Zboncak, Rowe And Murazik",Yazılım & Lisans,5.46,"Vinton, CA",0,False,,0.0,796646
+TXN00215,2020-02-10 14:06:25,EMP0715,Sabrina Johnson,Genel,Rempel Inc,Yazılım & Lisans,9.42,"Thompson, UT",0,False,,0.0,994468
+TXN00216,2019-09-28 14:52:20,EMP0764,Jacqueline Prince,Satış & Pazarlama,Kautzer And Sons,Diğer,43.77,"Metairie, LA",0,False,,0.0,637081
+TXN00217,2020-04-12 00:36:00,EMP0938,Margaret Mendez,Yönetim,"Moore, Dibbert And Koepp",Diğer,2.48,"De Soto, KS",0,False,,0.0,1120763
+TXN00218,2020-04-27 01:41:34,EMP0843,Jasmine Foster,Bilgi Teknolojileri,"Reilly, Heaney And Cole",Ulaşım,74.71,"Phil Campbell, AL",0,False,,0.0,1155242
+TXN00219,2019-12-02 09:12:11,EMP0588,Terrance Mckinney,Bilgi Teknolojileri,Mraz-Herzog,Ulaşım,71.19,"Norman, AR",0,False,,0.0,791878
+TXN00220,2020-01-12 17:11:05,EMP0157,Jessica Terry,Satış & Pazarlama,Pouros-Conroy,Ofis Malzemesi,32.61,"Maysville, KY",0,False,,0.0,944552
+TXN00221,2019-03-02 17:05:38,EMP0092,Judith Moss,Yönetim,Bode-Schuster,Diğer,24.68,"Washington Court House, OH",0,False,,0.0,105926
+TXN00222,2019-10-13 21:47:57,EMP0838,Robert Nguyen,Genel,Connelly Plc,Temsil & Ağırlama,8.91,"Ruth, NV",0,False,,0.0,672983
+TXN00223,2019-08-02 03:53:16,EMP0035,William Thomas,Genel,"Heller, Gutmann And Zieme",Ofis Malzemesi,89.16,"Lahoma, OK",0,False,,0.0,489226
+TXN00224,2020-01-03 23:43:55,EMP0568,Tanya Williams,Genel,Little-Gleichner,Seyahat,3.0,"Brownville, NY",0,False,,0.0,928871
+TXN00225,2019-04-08 19:37:07,EMP0275,Adam Kirk,Genel,Wuckert-Goldner,Ekipman & Donanım,46.09,"Big Indian, NY",0,False,,0.0,191647
+TXN00226,2020-01-03 10:54:26,EMP0840,James Reese,Eğitim,Smitham-Schiller,Ofis Malzemesi,27.44,"Sontag, MS",0,False,,0.0,928000
+TXN00227,2019-06-12 13:47:31,EMP0210,Gina Morrison,Ar-Ge,"Schneider, Hayes And Nikolaus",Temsil & Ağırlama,2.61,"Allentown, PA",0,False,,0.0,347602
+TXN00228,2020-03-01 04:26:41,EMP0513,Jason Singh,Satış & Pazarlama,"Goldner, Kovacek And Abbott",Ofis Malzemesi,49.27,"Murrayville, IL",0,False,,0.0,1025230
+TXN00229,2020-04-09 01:51:41,EMP0800,Steven Williams,Tasarım & Kreatif,Pacocha-O'Reilly,Ofis Malzemesi,121.29,"Edinburg, VA",0,False,,0.0,1115425
+TXN00230,2019-11-27 13:25:11,EMP0918,Monica Cohen,Genel,Reilly Llc,Ekipman & Donanım,7.49,"Uledi, PA",0,False,,0.0,773835
+TXN00231,2019-05-26 08:03:23,EMP0721,Kenneth Edwards,Genel,Pouros-Conroy,Ofis Malzemesi,20.83,"Andrews, IN",0,False,,0.0,298666
+TXN00232,2019-05-05 01:07:50,EMP0641,Renee Parrish,Ar-Ge,Vonrueden Group,Ofis Malzemesi,65.65,"Mountain Park, OK",0,False,,0.0,249423
+TXN00233,2019-03-18 15:51:39,EMP0311,Rebecca Obrien,Yönetim,Dare-Gibson,Sağlık & Spor,65.1,"Juliette, GA",0,False,,0.0,143463
+TXN00234,2019-07-29 23:56:42,EMP0444,Mark Wood,Bilgi Teknolojileri,"Douglas, Dubuque And Mckenzie",Seyahat,5.51,"Bowdoin, ME",0,False,,0.0,482539
+TXN00235,2019-11-26 11:39:15,EMP0310,Bryan Pugh,Bilgi Teknolojileri,"Douglas, Schneider And Turner",Ofis Malzemesi,109.36,"Margaretville, NY",0,False,,0.0,772116
+TXN00236,2019-11-28 19:19:16,EMP0422,Laura Walker,Bilgi Teknolojileri,Connelly-Carter,Ekipman & Donanım,16.84,"Cisco, IL",0,False,,0.0,776193
+TXN00237,2019-11-23 01:22:17,EMP0125,Eddie Mendez,Bilgi Teknolojileri,Dooley-Thompson,Diğer,6.27,"Clarinda, IA",0,False,,0.0,762714
+TXN00238,2019-12-23 13:13:48,EMP0611,David Everett,Genel,Dach-Nader,Diğer,2.39,"Morrisdale, PA",0,False,,0.0,887322
+TXN00239,2019-09-22 05:52:51,EMP0523,Jordan May,Genel,Rau And Sons,Ofis Malzemesi,83.98,"Aledo, TX",0,False,,0.0,623048
+TXN00240,2020-05-16 17:14:17,EMP0443,Joseph Murray,Genel,"Koss, Mclaughlin And Mayer",Temsil & Ağırlama,63.33,"Manderson, SD",0,False,,0.0,1199252
+TXN00241,2019-04-18 18:09:36,EMP0320,Joanna Hudson,Danışmanlık,Bode-Rempel,Diğer,11.23,"Sebring, FL",0,False,,0.0,212468
+TXN00242,2019-12-22 15:51:42,EMP0166,Rebecca Butler,Bilgi Teknolojileri,Gulgowski Llc,Ekipman & Donanım,32.68,"Winger, MN",0,False,,0.0,882030
+TXN00243,2020-02-22 15:15:57,EMP0840,James Reese,Eğitim,Ruecker-Mayert,Diğer,45.24,"Sontag, MS",0,False,,0.0,1013983
+TXN00244,2019-12-10 09:57:49,EMP0141,Michael Johnson,Genel,Lockman Ltd,Ofis Malzemesi,38.18,"Norwalk, CA",0,False,,0.0,828824
+TXN00245,2019-04-30 11:17:06,EMP0814,Robert Long,Ar-Ge,Heathcote Llc,Yazılım & Lisans,88.15,"Lonetree, WY",0,False,,0.0,240447
+TXN00246,2019-06-10 03:29:21,EMP0954,Vanessa Anderson,Genel,"Adams, Kovacek And Kuhlman",Ofis Malzemesi,43.59,"Prosperity, SC",0,False,,0.0,341328
+TXN00247,2020-04-13 21:09:34,EMP0688,Joseph Davis,Bilgi Teknolojileri,Jakubowski Group,Temsil & Ağırlama,54.48,"Nazareth, TX",0,False,,0.0,1126238
+TXN00248,2019-05-22 03:04:12,EMP0639,Edward Tapia,Sağlık,Kiehn Inc,Ofis Malzemesi,136.2,"Comfrey, MN",0,False,,0.0,288782
+TXN00249,2019-06-05 16:13:43,EMP0426,Benjamin Harris,Sağlık,Howe Ltd,Diğer,14.35,"Chester, MD",0,False,,0.0,328103
+TXN00250,2020-04-07 21:44:22,EMP0293,Shawn King,Genel,"Feil, Hilpert And Koss",Temsil & Ağırlama,64.04,"Athena, OR",0,False,,0.0,1113510
+TXN00251,2020-05-08 16:45:35,EMP0897,Kathleen Nash,Finans & Muhasebe,Ruecker-Mayert,Diğer,5.23,"Cromona, KY",0,False,,0.0,1181488
+TXN00252,2020-01-05 12:57:20,EMP0352,Sarah Bishop,Sağlık,"Altenwerth, Cartwright And Koss",Yazılım & Lisans,302.94,"Meridian, TX",0,False,,0.0,931971
+TXN00253,2019-08-04 18:48:42,EMP0578,Chris Dixon,Finans & Muhasebe,Ernser-Feest,Ekipman & Donanım,73.83,"Williams, IN",0,False,,0.0,497639
+TXN00254,2019-05-04 19:42:24,EMP0851,Jodi Rodriguez,Bilgi Teknolojileri,Johns Inc,Etkinlik & Organizasyon,149.72,"Walnut Ridge, AR",0,False,,0.0,248693
+TXN00255,2019-06-17 22:15:48,EMP0444,Mark Wood,Bilgi Teknolojileri,Ullrich Ltd,Diğer,32.57,"Bowdoin, ME",0,False,,0.0,364361
+TXN00256,2020-03-11 07:43:58,EMP0625,Krystal Key,Bilgi Teknolojileri,"Connelly, Reichert And Fritsch",Ulaşım,98.47,"Corsica, PA",0,False,,0.0,1050129
+TXN00257,2020-01-16 01:37:01,EMP0415,Richard Brown,Bilgi Teknolojileri,Torp-Labadie,Ulaşım,41.53,"Heidelberg, MS",0,False,,0.0,950288
+TXN00258,2020-06-07 14:26:35,EMP0946,Jeremy Whitney,Bilgi Teknolojileri,Kozey-Kuhlman,Diğer,63.67,"Sacramento, CA",0,False,,0.0,1257192
+TXN00259,2019-12-24 09:57:19,EMP0728,Justin Bell,Yönetim,Dach-Nader,Diğer,43.05,"Churubusco, IN",0,False,,0.0,891483
+TXN00260,2020-06-05 21:27:02,EMP0191,Savannah Lewis,Genel,Bechtelar-Rippin,Temsil & Ağırlama,105.16,"North Tonawanda, NY",0,False,,0.0,1252930
+TXN00261,2019-12-29 22:18:49,EMP0023,Dawn Tucker,Bilgi Teknolojileri,"Schuppe, Nolan And Hoeger",Ofis Malzemesi,129.51,"Houston, TX",0,False,,0.0,915325
+TXN00262,2020-03-17 04:31:46,EMP0288,Mark Tyler,Yönetim,Mcglynn-Jaskolski,Diğer,27.59,"Avera, GA",0,False,,0.0,1063245
+TXN00263,2019-08-31 09:22:27,EMP0798,Lauren Butler,Eğitim,Murray-Smitham,Ofis Malzemesi,198.34,"Tulsa, OK",0,False,,0.0,571612
+TXN00264,2020-05-04 00:08:35,EMP0035,William Thomas,Genel,Howe Ltd,Diğer,27.16,"Lahoma, OK",0,False,,0.0,1170806
+TXN00265,2019-11-15 10:26:05,EMP0057,Amanda Spencer,Finans & Muhasebe,Cummerata-Jones,Ulaşım,56.36,"Ogdensburg, NJ",0,False,,0.0,745562
+TXN00266,2019-11-20 04:47:17,EMP0418,Barbara Norman,Genel,"Kerluke, Considine And Macejkovic",Diğer,142.38,"New York City, NY",0,False,,0.0,757557
+TXN00267,2020-05-16 12:38:39,EMP0939,Erica Briggs,Genel,"Berge, Kautzer And Harris",Diğer,85.64,"Oolitic, IN",0,False,,0.0,1198825
+TXN00268,2019-07-23 11:02:30,EMP0425,Justin Gay,Genel,Kassulke Plc,Yazılım & Lisans,1.62,"Harborcreek, PA",0,False,,0.0,463493
+TXN00269,2019-07-13 17:20:44,EMP0227,Candice Brown,Genel,"Lehner, Reichert And Mills",Diğer,2.4,"O Brien, TX",0,False,,0.0,434454
+TXN00270,2020-02-08 01:18:35,EMP0557,Robert Ashley,İnsan Kaynakları,Fisher-Schowalter,Yazılım & Lisans,4.02,"Port Costa, CA",0,False,,0.0,989085
+TXN00271,2019-06-14 11:33:08,EMP0662,Daniel Cain,Bilgi Teknolojileri,Dickinson Ltd,Diğer,4.36,"Belmond, IA",0,False,,0.0,351939
+TXN00272,2019-03-10 12:22:35,EMP0699,Christopher Gregory,Bilgi Teknolojileri,Schulist Ltd,Temsil & Ağırlama,6.8,"Wauchula, FL",0,False,,0.0,124100
+TXN00273,2019-12-02 05:56:19,EMP0082,Christopher Adkins,Bilgi Teknolojileri,"Johnson, Runolfsdottir And Mayer",Diğer,130.51,"Lorenzo, TX",0,False,,0.0,791266
+TXN00274,2020-06-10 22:58:22,EMP0752,Lisa Lowe,Genel,"Nienow, Ankunding And Collier",Diğer,1526.93,"Cottekill, NY",0,False,,0.0,1268494
+TXN00275,2019-01-28 23:23:14,EMP0827,Erin Chavez,Bilgi Teknolojileri,Friesen Inc,Ofis Malzemesi,146.4,"Littleton, CO",0,False,,0.0,47782
+TXN00276,2020-02-21 13:35:56,EMP0283,Adam Santos,Satış & Pazarlama,Auer-West,Yazılım & Lisans,8.83,"Glendale, CA",0,False,,0.0,1012050
+TXN00277,2019-09-24 00:20:17,EMP0611,David Everett,Genel,Strosin-Cruickshank,Ofis Malzemesi,63.15,"Morrisdale, PA",0,False,,0.0,628838
+TXN00278,2020-06-17 07:36:25,EMP0110,Jerry Kelly,Bilgi Teknolojileri,Eichmann-Russel,Diğer,46.56,"Fairview, NJ",0,False,,0.0,1287125
+TXN00279,2020-05-04 16:14:35,EMP0918,Monica Cohen,Genel,Reichel Llc,Diğer,151.93,"Uledi, PA",0,False,,0.0,1172712
+TXN00280,2019-10-27 03:14:18,EMP0923,Amber Lewis,Sağlık,Heller-Langosh,Ulaşım,49.71,"Pembroke Township, IL",0,False,,0.0,702339
+TXN00281,2020-01-07 15:27:09,EMP0863,Philip Hart,Ar-Ge,"Baumbach, Feeney And Morar",Yazılım & Lisans,1039.82,"Montgomery, AL",1,False,,0.0,936383
+TXN00282,2019-08-21 08:22:05,EMP0743,Meredith Campbell,Ar-Ge,Padberg-Welch,Ofis Malzemesi,51.77,"Hedrick, IA",0,False,,0.0,544602
+TXN00283,2019-05-22 21:36:47,EMP0479,Joshua Carpenter,Sağlık,Leffler-Goldner,Diğer,2.63,"Bronx, NY",0,False,,0.0,290067
+TXN00284,2019-08-04 14:54:25,EMP0324,Jason Mcmahon,Bilgi Teknolojileri,Renner Ltd,Ekipman & Donanım,80.88,"Springfield, VA",0,False,,0.0,496864
+TXN00285,2019-04-06 10:35:22,EMP0169,Theresa Powell,Genel,Heidenreich Plc,Ofis Malzemesi,198.6,"Leonard, TX",0,False,,0.0,184262
+TXN00286,2020-03-26 05:35:23,EMP0687,Cheryl Morgan,Bilgi Teknolojileri,"Stroman, Hudson And Erdman",Ulaşım,64.42,"Norman, AR",0,False,,0.0,1083739
+TXN00287,2019-08-14 13:14:01,EMP0045,Rachel Daniels,Genel,O'Connell-Ullrich,Ekipman & Donanım,37.01,"Wetmore, MI",0,False,,0.0,525299
+TXN00288,2019-10-20 03:38:34,EMP0195,Greg Villarreal,Genel,"Rowe, Batz And Goodwin",Ofis Malzemesi,98.2,"Schaefferstown, PA",0,False,,0.0,686419
+TXN00289,2019-04-26 14:54:07,EMP0657,Aaron Rogers,Bilgi Teknolojileri,Eichmann-Kilback,Ekipman & Donanım,11.35,"Valentine, NE",0,False,,0.0,229984
+TXN00290,2019-05-02 15:19:07,EMP0398,Melissa Mcclure,Eğitim,Champlin And Sons,Ekipman & Donanım,11.93,"Manville, WY",0,False,,0.0,244047
+TXN00291,2019-12-20 16:47:59,EMP0409,Peggy Berry,Bilgi Teknolojileri,"Roberts, Ryan And Smith",Diğer,60.07,"Vancouver, WA",0,False,,0.0,871603
+TXN00292,2020-02-09 07:30:22,EMP0902,Kyle Simmons,Bilgi Teknolojileri,Dach-Borer,Ofis Malzemesi,96.74,"Oklahoma City, OK",0,False,,0.0,991545
+TXN00293,2019-03-04 06:00:48,EMP0741,Tami Forbes,Genel,Heller-Abshire,Ofis Malzemesi,72.18,"Barnstable, MA",0,False,,0.0,110601
+TXN00294,2019-08-03 15:22:12,EMP0461,Francisco Kemp,Genel,Yost-Rogahn,Diğer,38.11,"Arnold, MO",0,False,,0.0,493219
+TXN00295,2020-01-09 22:14:53,EMP0319,Ruth Fuller,Finans & Muhasebe,Reilly And Sons,Sağlık & Spor,49.2,"Darien, GA",0,False,,0.0,939424
+TXN00296,2019-04-22 12:58:47,EMP0682,Alicia Morales,Satış & Pazarlama,Gerhold Llc,Ekipman & Donanım,53.77,"Meredith, CO",0,False,,0.0,222245
+TXN00297,2019-10-01 08:08:55,EMP0261,Connie Carroll,Yönetim,Sporer Inc,Ulaşım,67.09,"Duncan, MS",0,False,,0.0,645007
+TXN00298,2019-08-20 12:24:54,EMP0166,Rebecca Butler,Bilgi Teknolojileri,Fadel Inc,Sağlık & Spor,55.33,"Winger, MN",0,False,,0.0,542928
+TXN00299,2020-04-07 03:42:46,EMP0239,Michelle Woods,Ar-Ge,Schamberger-O'Keefe,Ofis Malzemesi,379.0,"Munith, MI",1,False,,0.0,1111075
+TXN00300,2019-11-16 22:36:36,EMP0161,Amanda Williams,Bilgi Teknolojileri,Crooks And Sons,Diğer,160.81,"Independence, MO",0,False,,0.0,749222
+TXN00301,2019-09-22 17:12:09,EMP0752,Lisa Lowe,Genel,Lynch Ltd,Ofis Malzemesi,7.3,"Cottekill, NY",0,False,,0.0,624541
+TXN00302,2019-01-04 17:28:54,EMP0159,Jared Velazquez,Bilgi Teknolojileri,Pacocha-Bauch,Ofis Malzemesi,3.22,"Matawan, NJ",0,False,,0.0,5727
+TXN00303,2019-05-13 04:33:49,EMP0478,Grace Williams,Bilgi Teknolojileri,Cummings Llc,Ulaşım,55.48,"Plantersville, AL",0,False,,0.0,268863
+TXN00304,2019-05-11 09:24:50,EMP0183,Jacob Dawson,Bilgi Teknolojileri,Koepp-Parker,Ofis Malzemesi,104.76,"Marienville, PA",0,False,,0.0,263342
+TXN00305,2019-01-31 18:29:15,EMP0399,Samuel Jenkins,Danışmanlık,"Kihn, Abernathy And Douglas",Yazılım & Lisans,170.36,"Westport, KY",0,False,,0.0,52164
+TXN00306,2019-06-10 12:42:00,EMP0530,Sara Harris,Genel,Denesik And Sons,Ofis Malzemesi,3.22,"Tupper Lake, NY",0,False,,0.0,342573
+TXN00307,2020-04-27 14:57:22,EMP0494,Shelby Mitchell,Ar-Ge,O'Hara-Wilderman,Temsil & Ağırlama,89.44,"Brandon, VT",0,False,,0.0,1156783
+TXN00308,2019-03-11 01:47:00,EMP0568,Tanya Williams,Genel,"Rutherford, Homenick And Bergstrom",Ofis Malzemesi,18.24,"Brownville, NY",1,False,,0.0,126197
+TXN00309,2019-04-04 15:01:11,EMP0482,Scott Fuller,Genel,"O'Connell, Botsford And Hand",Ekipman & Donanım,107.63,"Haw River, NC",0,False,,0.0,180568
+TXN00310,2019-12-08 23:55:40,EMP0481,Ashley Cabrera,Eğitim,Jacobi Inc,Sağlık & Spor,3.33,"Vero Beach, FL",0,False,,0.0,821615
+TXN00311,2020-03-15 23:47:26,EMP0716,Andrea Lewis,Bilgi Teknolojileri,"Wuckert, Wintheiser And Friesen",Ekipman & Donanım,368.65,"Ashford, WA",1,False,,0.0,1059400
+TXN00312,2019-12-31 20:16:04,EMP0721,Kenneth Edwards,Genel,Schumm Plc,Sağlık & Spor,9.91,"Andrews, IN",0,False,,0.0,924284
+TXN00313,2019-11-07 09:04:07,EMP0134,Jessica Garcia,Bilgi Teknolojileri,"Schaefer, Maggio And Daugherty",Ulaşım,74.59,"Mc Cracken, KS",0,False,,0.0,727956
+TXN00314,2020-04-05 13:10:56,EMP0791,Rebecca Erickson,Eğitim,Schiller Ltd,Diğer,101.37,"Wilmington, NC",0,False,,0.0,1105857
+TXN00315,2019-03-31 19:15:42,EMP0894,Joe Howard,Genel,Gerhold Llc,Ekipman & Donanım,88.51,"Shippingport, PA",0,False,,0.0,172559
+TXN00316,2019-06-01 00:46:45,EMP0292,Alan Colon,Eğitim,Hintz-Bruen,Ofis Malzemesi,42.09,"Riverton, WY",0,False,,0.0,314033
+TXN00317,2019-12-12 11:26:56,EMP0651,Jennifer Spencer,Yönetim,Erdman-Kertzmann,Ulaşım,129.79,"Amanda, OH",0,False,,0.0,835542
+TXN00318,2019-09-26 01:56:13,EMP0355,Linda Hurst,Tasarım & Kreatif,Heaney-Marquardt,Etkinlik & Organizasyon,7.14,"Wilton, ND",0,False,,0.0,632032
+TXN00319,2019-09-10 14:55:50,EMP0209,Michael Olson,Genel,Yost-Rogahn,Diğer,127.62,"Luray, MO",0,False,,0.0,597734
+TXN00320,2020-01-08 14:24:24,EMP0090,Patrick Torres,Danışmanlık,Kozey-Mcdermott,Seyahat,3.0,"Oxford, MI",0,False,,0.0,937505
+TXN00321,2019-11-04 15:23:29,EMP0324,Jason Mcmahon,Bilgi Teknolojileri,"Streich, Rolfson And Wilderman",Diğer,108.85,"Springfield, VA",0,False,,0.0,722917
+TXN00322,2019-01-06 15:32:00,EMP0153,Connor Grant,Yönetim,Mayert Group,Ofis Malzemesi,1.76,"Northport, NY",0,False,,0.0,8802
+TXN00323,2020-06-08 06:05:55,EMP0331,Thomas Gibson,Operasyon & Lojistik,"Lehner, Mosciski And King",Diğer,2.19,"Grand Bay, AL",0,False,,0.0,1259597
+TXN00324,2019-08-31 04:39:38,EMP0428,Patrick Vaughan,Ar-Ge,Schmidt And Sons,Yazılım & Lisans,668.15,"Parsonsfield, ME",0,False,,0.0,571088
+TXN00325,2019-01-23 17:33:05,EMP0114,Karen Gordon,Genel,Fritsch Llc,Seyahat,3.03,"Utica, MO",0,False,,0.0,39110
+TXN00326,2020-06-06 11:43:53,EMP0745,Omar Gay,Bilgi Teknolojileri,Keeling-Crist,Diğer,25.92,"West Hartford, VT",0,False,,0.0,1254103
+TXN00327,2019-03-31 21:17:20,EMP0178,Sarah Foster,Yönetim,Streich Ltd,Ekipman & Donanım,3.6,"Ford, VA",0,False,,0.0,172876
+TXN00328,2019-02-08 22:21:40,EMP0853,Bryan Torres,Yönetim,Windler Llc,Diğer,51.76,"Detroit, MI",0,False,,0.0,65976
+TXN00329,2019-02-01 12:58:38,EMP0072,Robert Martinez,Eğitim,Weimann-Lockman,Diğer,7.47,"Pueblo, CO",0,False,,0.0,53185
+TXN00330,2020-02-23 03:09:53,EMP0044,Susan Washington,Genel,Rodriguez Group,Ulaşım,57.53,"May, TX",0,False,,0.0,1015138
+TXN00331,2019-08-26 05:53:36,EMP0494,Shelby Mitchell,Ar-Ge,Thiel Plc,Diğer,7.52,"Brandon, VT",1,False,,0.0,558832
+TXN00332,2019-10-22 20:41:31,EMP0610,Sara Ramirez,Genel,Bernier And Sons,Diğer,45.58,"Birmingham, IA",0,False,,0.0,693509
+TXN00333,2020-01-29 15:04:32,EMP0413,Shannon Williams,Yönetim,Ankunding-Carroll,Seyahat,2.45,"Alpharetta, GA",0,False,,0.0,973701
+TXN00334,2019-01-22 23:18:08,EMP0320,Joanna Hudson,Danışmanlık,Brown Inc,Diğer,16.1,"Sebring, FL",1,False,,0.0,38263
+TXN00335,2020-04-17 11:57:00,EMP0185,John Nichols,Genel,Marks Inc,Ulaşım,49.25,"Dalton, WI",0,False,,0.0,1133697
+TXN00336,2019-02-14 11:03:01,EMP0648,Stephen Marshall,Sağlık,"Jenkins, Hauck And Friesen",Ulaşım,100.72,"Monmouth Beach, NJ",0,False,,0.0,75926
+TXN00337,2019-02-13 11:59:13,EMP0878,William Fitzgerald,Yönetim,Schamberger-O'Keefe,Ofis Malzemesi,71.82,"Keller, TX",0,False,,0.0,74729
+TXN00338,2019-06-02 16:39:27,EMP0823,Ann Lawson,Genel,Powlowski-Weimann,Temsil & Ağırlama,135.19,"Burbank, WA",0,False,,0.0,319767
+TXN00339,2019-04-13 23:49:25,EMP0811,Ashley Whitney,Bilgi Teknolojileri,"Schroeder, Wolff And Hermiston",Seyahat,3.81,"Jones, AL",0,False,,0.0,201903
+TXN00340,2019-03-08 09:31:27,EMP0635,Sydney Montoya,Genel,Kutch And Sons,Ofis Malzemesi,286.7,"Fairhope, AL",1,False,,0.0,118761
+TXN00341,2019-11-25 15:16:06,EMP0557,Robert Ashley,İnsan Kaynakları,Kihn-Schuster,Temsil & Ağırlama,49.76,"Port Costa, CA",0,False,,0.0,770181
+TXN00342,2019-03-30 11:31:06,EMP0438,Jenna Brooks,Bilgi Teknolojileri,"Huel, Hammes And Witting",Ofis Malzemesi,195.81,"Baton Rouge, LA",0,False,,0.0,168469
+TXN00343,2019-03-19 05:57:42,EMP0267,Joanne Padilla,Bilgi Teknolojileri,"Heller, Gutmann And Zieme",Ofis Malzemesi,110.79,"Gardiner, OR",0,False,,0.0,145014
+TXN00344,2019-10-12 17:54:09,EMP0734,Derek Jones,Genel,Torp-Lemke,Diğer,8.38,"Diamond, OH",1,False,,0.0,669357
+TXN00345,2019-03-05 23:42:56,EMP0843,Jasmine Foster,Bilgi Teknolojileri,"Hahn, Bahringer And Mclaughlin",Diğer,61.9,"Phil Campbell, AL",0,False,,0.0,114630
+TXN00346,2020-05-07 15:17:02,EMP0538,Angela Edwards,Eğitim,Fadel Inc,Sağlık & Spor,40.51,"Lithopolis, OH",0,False,,0.0,1179526
+TXN00347,2020-02-12 00:54:30,EMP0043,Bryan Miller,Tasarım & Kreatif,Kassulke Plc,Yazılım & Lisans,5.22,"Cass, WV",0,False,,0.0,996844
+TXN00348,2019-09-12 01:46:55,EMP0616,Ashley Lopez,Eğitim,Miller-Hauck,Ofis Malzemesi,327.84,"Bellmore, NY",1,False,,0.0,600147
+TXN00349,2019-10-07 06:12:09,EMP0436,Jennifer Banks,Genel,Stracke-Lemke,Ofis Malzemesi,174.89,"Moravian Falls, NC",0,False,,0.0,658098
+TXN00350,2019-06-28 04:12:56,EMP0311,Rebecca Obrien,Yönetim,Cole Plc,Ofis Malzemesi,253.88,"Juliette, GA",0,False,,0.0,390672
+TXN00351,2019-03-22 16:40:07,EMP0158,Stephanie Middleton,Genel,Gleason And Sons,Diğer,28.76,"Morrisdale, PA",0,False,,0.0,150875
+TXN00352,2019-08-31 20:58:06,EMP0325,Carol Dillon,Yönetim,"Cremin, Hamill And Reichel",Diğer,72.38,"Whaleyville, MD",0,False,,0.0,573397
+TXN00353,2019-02-17 19:51:11,EMP0920,Stacy Villegas,Bilgi Teknolojileri,"Roob, Conn And Tremblay",Ofis Malzemesi,5.25,"Colorado Springs, CO",0,False,,0.0,81100
+TXN00354,2019-12-19 07:39:08,EMP0124,Melissa Krause,Bilgi Teknolojileri,Parisian And Sons,Ulaşım,52.62,"Fordoche, LA",0,False,,0.0,866575
+TXN00355,2019-07-21 11:38:17,EMP0743,Meredith Campbell,Ar-Ge,"Raynor, Reinger And Hagenes",Ulaşım,47.31,"Hedrick, IA",0,False,,0.0,456510
+TXN00356,2020-01-06 18:03:26,EMP0049,Destiny Lowe,Yönetim,Hamill-D'Amore,Sağlık & Spor,24.04,"Hannawa Falls, NY",0,False,,0.0,935075
+TXN00357,2019-09-01 12:32:49,EMP0471,Antonio Koch,Yönetim,"Parisian, Schiller And Altenwerth",Diğer,290.72,"Moab, UT",0,False,,0.0,575719
+TXN00358,2020-06-08 16:11:12,EMP0356,David Lewis,Genel,Ullrich Ltd,Diğer,52.5,"Arlington, VA",0,False,,0.0,1261287
+TXN00359,2019-11-21 14:16:07,EMP0919,Nathan Mendoza,Yönetim,Schoen Ltd,Diğer,44.53,"Espanola, NM",0,False,,0.0,759897
+TXN00360,2019-04-05 17:39:09,EMP0730,Lauren Anderson,Bilgi Teknolojileri,"Schmeler, Bashirian And Price",Yazılım & Lisans,120.7,"Heart Butte, MT",0,False,,0.0,182694
+TXN00361,2020-01-19 20:28:25,EMP0362,Tyler Garcia,Sağlık,Barton Llc,Diğer,50.83,"Doe Hill, VA",0,False,,0.0,957190
+TXN00362,2019-11-06 23:00:08,EMP0590,Deborah Fisher,Genel,Daugherty Llc,Diğer,16.5,"Kirtland Afb, NM",0,False,,0.0,727324
+TXN00363,2019-02-15 15:41:36,EMP0685,Felicia Mckee,Genel,"Konopelski, Schneider And Hartmann",Temsil & Ağırlama,1.18,"Tomales, CA",0,False,,0.0,77475
+TXN00364,2019-12-22 17:14:28,EMP0241,Mackenzie Salazar,Bilgi Teknolojileri,Abshire Plc,Etkinlik & Organizasyon,17.46,"Bagley, WI",0,False,,0.0,882456
+TXN00365,2019-06-26 04:40:44,EMP0160,Brianna Foley,Tasarım & Kreatif,"Tillman, Dickinson And Labadie",Ulaşım,77.62,"Knoxville, TN",0,False,,0.0,386341
+TXN00366,2019-04-19 14:53:40,EMP0097,Maureen Garza,Genel,Goyette-Gerhold,Diğer,18.68,"Saint Louis, MO",0,False,,0.0,214056
+TXN00367,2019-05-10 04:55:51,EMP0383,Christopher Matthews,Finans & Muhasebe,"Mosciski, Gislason And Mertz",Ofis Malzemesi,105.57,"Etlan, VA",0,False,,0.0,260905
+TXN00368,2019-07-12 12:14:30,EMP0035,William Thomas,Genel,Spencer Plc,Etkinlik & Organizasyon,80.03,"Lahoma, OK",0,False,,0.0,430813
+TXN00369,2019-04-01 20:18:54,EMP0557,Robert Ashley,İnsan Kaynakları,Zboncak Llc,Temsil & Ağırlama,32.33,"Port Costa, CA",0,False,,0.0,175847
+TXN00370,2019-06-10 15:42:09,EMP0359,Shannon Bell,Yönetim,"Roberts, Ryan And Smith",Diğer,86.74,"Georgetown, MN",0,False,,0.0,343113
+TXN00371,2019-06-22 13:48:41,EMP0899,Dawn Stephens,Genel,Abernathy And Sons,Temsil & Ağırlama,11.64,"Oran, IA",0,False,,0.0,374826
+TXN00372,2019-09-28 22:05:54,EMP0110,Jerry Kelly,Bilgi Teknolojileri,"Windler, Goodwin And Kovacek",Ekipman & Donanım,2.03,"Fairview, NJ",0,False,,0.0,638062
+TXN00373,2019-09-13 12:08:41,EMP0096,Misty Rivera,Bilgi Teknolojileri,Kihn-Fritsch,Temsil & Ağırlama,18.02,"Catawba, VA",0,False,,0.0,602566
+TXN00374,2019-10-18 20:12:56,EMP0421,Judy Hogan,Satış & Pazarlama,Windler Llc,Diğer,37.03,"Brooklyn, NY",0,False,,0.0,682979
+TXN00375,2019-07-28 00:19:26,EMP0460,James Cooper,Operasyon & Lojistik,"Eichmann, Bogan And Rodriguez",Ulaşım,71.06,"Huntsville, AL",0,False,,0.0,474747
+TXN00376,2019-11-12 19:57:49,EMP0310,Bryan Pugh,Bilgi Teknolojileri,"Pouros, Walker And Spencer",Diğer,42.29,"Margaretville, NY",0,False,,0.0,741162
+TXN00377,2019-10-23 09:11:09,EMP0685,Felicia Mckee,Genel,Kuhn Llc,Ofis Malzemesi,1.54,"Tomales, CA",0,False,,0.0,694289
+TXN00378,2019-04-27 10:48:34,EMP0460,James Cooper,Operasyon & Lojistik,Cummings Group,Ofis Malzemesi,56.04,"Huntsville, AL",0,False,,0.0,231869
+TXN00379,2019-01-11 18:44:42,EMP0543,Matthew Huerta,Bilgi Teknolojileri,Fritsch Llc,Seyahat,511.87,"Ringwood, IL",0,False,,0.0,17885
+TXN00380,2019-04-06 08:34:47,EMP0251,Michael Flores,Genel,Vonrueden Group,Ofis Malzemesi,53.88,"Saxon, WI",0,False,,0.0,184061
+TXN00381,2019-11-20 00:44:40,EMP0141,Michael Johnson,Genel,"Lockman, West And Runte",Ofis Malzemesi,55.76,"Norwalk, CA",0,False,,0.0,757356
+TXN00382,2020-04-06 05:46:21,EMP0805,Jacqueline Marsh,Bilgi Teknolojileri,Heller-Langosh,Ulaşım,57.15,"Dunlevy, PA",0,False,,0.0,1108024
+TXN00383,2020-04-12 19:44:49,EMP0511,Steven Yoder,Yönetim,Kris-Padberg,Ofis Malzemesi,130.43,"Summerfield, TX",0,False,,0.0,1122773
+TXN00384,2019-03-09 05:27:44,EMP0348,Kristen Hanson,Bilgi Teknolojileri,Vonrueden Group,Ofis Malzemesi,38.02,"Goodrich, MI",0,False,,0.0,120519
+TXN00385,2019-04-12 05:50:48,EMP0284,Tara Campbell,Sağlık,Strosin-Cruickshank,Ofis Malzemesi,208.4,"Rock Springs, WY",0,False,,0.0,197662
+TXN00386,2019-12-26 23:07:24,EMP0352,Sarah Bishop,Sağlık,Ziemann-Waters,Sağlık & Spor,33.22,"Meridian, TX",0,False,,0.0,900198
+TXN00387,2019-03-30 13:04:06,EMP0028,Louis Fisher,Genel,Wuckert-Goldner,Ekipman & Donanım,78.35,"Fort Washakie, WY",0,False,,0.0,168666
+TXN00388,2019-04-22 16:04:28,EMP0455,Michael Orozco,Genel,Little Ltd,Diğer,51.53,"Alder, MT",0,False,,0.0,222723
+TXN00389,2020-06-21 11:11:31,EMP0438,Jenna Brooks,Bilgi Teknolojileri,"Kovacek, Dibbert And Ondricka",Ofis Malzemesi,166.65,"Baton Rouge, LA",0,False,,0.0,1296552
+TXN00390,2019-06-23 04:55:23,EMP0827,Erin Chavez,Bilgi Teknolojileri,Dickinson Ltd,Diğer,48.52,"Littleton, CO",0,False,,0.0,377116
+TXN00391,2019-01-18 17:20:22,EMP0076,Vicki Mendoza,Yönetim,Johnston-Casper,Seyahat,7.74,"Esbon, KS",0,False,,0.0,29848
+TXN00392,2019-07-09 07:44:11,EMP0533,Sharon Johnson,Bilgi Teknolojileri,Lebsack And Sons,Diğer,1.99,"Conway, WA",0,False,,0.0,424052
+TXN00393,2019-01-30 09:41:33,EMP0929,Steven Brooks,İnsan Kaynakları,"Eichmann, Bogan And Rodriguez",Ulaşım,57.5,"Manley, NE",0,False,,0.0,50530
+TXN00394,2020-03-22 07:51:59,EMP0671,John Nichols,Bilgi Teknolojileri,"Langworth, Boehm And Gulgowski",Yazılım & Lisans,106.69,"Bryant, WI",0,False,,0.0,1073512
+TXN00395,2020-01-08 00:09:43,EMP0821,Victoria Fleming,Eğitim,Vandervort-Funk,Ofis Malzemesi,311.47,"Stanchfield, MN",1,False,,0.0,936887
+TXN00396,2020-06-16 21:48:20,EMP0702,Pamela Lewis,Genel,"Nitzsche, Kessler And Wolff",Ofis Malzemesi,6.16,"Clifton, SC",0,False,,0.0,1286308
+TXN00397,2019-06-15 16:07:10,EMP0349,Lori Ramirez,Tasarım & Kreatif,Skiles Llc,Ekipman & Donanım,65.43,"Ranier, MN",0,False,,0.0,355449
+TXN00398,2020-03-17 19:44:11,EMP0702,Pamela Lewis,Genel,Bogisich-Homenick,Diğer,7.93,"Clifton, SC",0,False,,0.0,1065198
+TXN00399,2020-06-17 18:02:42,EMP0814,Robert Long,Ar-Ge,Bauch-Blanda,Etkinlik & Organizasyon,64.6,"Lonetree, WY",0,False,,0.0,1287928
+TXN00400,2019-09-09 04:42:04,EMP0426,Benjamin Harris,Sağlık,Bradtke Plc,Ofis Malzemesi,44.58,"Chester, MD",0,False,,0.0,594400
+TXN00401,2019-10-03 06:14:06,EMP0115,Melody Thompson,Bilgi Teknolojileri,"Raynor, Feest And Miller",Ulaşım,41.09,"Mound City, MO",0,False,,0.0,648243
+TXN00402,2020-04-10 19:09:07,EMP0814,Robert Long,Ar-Ge,Kihn-Fritsch,Temsil & Ağırlama,64.99,"Lonetree, WY",0,False,,0.0,1118414
+TXN00403,2019-08-08 09:04:31,EMP0230,Teresa Clark,Tasarım & Kreatif,Terry-Huel,Yazılım & Lisans,1.85,"Noonan, ND",0,False,,0.0,507226
+TXN00404,2019-01-31 16:34:23,EMP0389,Susan Hernandez,Genel,Runte-Mohr,Temsil & Ağırlama,9.92,"Moro, IL",0,False,,0.0,52051
+TXN00405,2019-04-24 20:25:26,EMP0533,Sharon Johnson,Bilgi Teknolojileri,"Wuckert, Wintheiser And Friesen",Ekipman & Donanım,21.24,"Conway, WA",0,False,,0.0,226887
+TXN00406,2019-07-28 22:59:33,EMP0886,Adam Riddle,Bilgi Teknolojileri,"Mueller, Gerhold And Mueller",Sağlık & Spor,75.25,"Mount Saint Joseph, OH",0,False,,0.0,478565
+TXN00407,2019-12-29 11:37:42,EMP0249,Christine Shaffer,Eğitim,Cummerata-Jones,Ulaşım,76.15,"Loami, IL",0,False,,0.0,911953
+TXN00408,2020-06-07 00:38:58,EMP0246,Erica Walker,Bilgi Teknolojileri,Rempel Inc,Yazılım & Lisans,19.39,"Stayton, OR",0,False,,0.0,1255582
+TXN00409,2019-02-20 18:02:37,EMP0291,Diane Jackson,Sağlık,Yost-Rogahn,Diğer,33.4,"Rule, TX",0,False,,0.0,87010
+TXN00410,2019-07-08 18:35:31,EMP0400,Jennifer Scott,Bilgi Teknolojileri,Emmerich-Rau,Diğer,7.4,"Randolph, OH",0,False,,0.0,422520
+TXN00411,2019-03-17 14:06:52,EMP0422,Laura Walker,Bilgi Teknolojileri,"Wuckert, Wintheiser And Friesen",Ekipman & Donanım,17.22,"Cisco, IL",0,False,,0.0,140087
+TXN00412,2019-12-19 13:55:29,EMP0323,Justin Fowler,Finans & Muhasebe,Connelly Plc,Temsil & Ağırlama,2.35,"Coffeeville, MS",0,False,,0.0,867479
+TXN00413,2019-10-28 23:11:12,EMP0670,Christopher Rodgers,Bilgi Teknolojileri,Mosciski Group,Seyahat,475.38,"Fenelton, PA",0,False,,0.0,708186
+TXN00414,2020-02-27 15:02:14,EMP0844,Nathan Stewart,Bilgi Teknolojileri,Kertzmann Llc,Sağlık & Spor,25.27,"West Long Branch, NJ",0,False,,0.0,1022767
+TXN00415,2019-12-22 10:54:20,EMP0656,Gary Hall,Genel,"Greenholt, Jacobi And Gleason",Ulaşım,40.15,"Allentown, NY",0,False,,0.0,880526
+TXN00416,2019-05-11 09:31:14,EMP0470,Dorothy Thomas,Bilgi Teknolojileri,Huels-Nolan,Ulaşım,35.54,"Milford, OH",0,False,,0.0,263350
+TXN00417,2019-12-28 19:09:54,EMP0585,Tyler Small,Bilgi Teknolojileri,"Schroeder, Hauck And Treutel",Etkinlik & Organizasyon,80.57,"Boyd, WI",0,False,,0.0,908211
+TXN00418,2019-11-17 16:16:08,EMP0315,Gloria Wallace,Genel,"Crist, Jakubowski And Littel",Ekipman & Donanım,33.6,"Center Tuftonboro, NH",0,False,,0.0,751393
+TXN00419,2019-07-05 13:58:16,EMP0276,Christopher Luna,Bilgi Teknolojileri,"Quitzon, Green And Bashirian",Ofis Malzemesi,6.9,"Laredo, TX",0,False,,0.0,411129
+TXN00420,2020-05-08 05:02:22,EMP0240,Becky Mckinney,Genel,Bailey-Morar,Ofis Malzemesi,188.69,"Mobile, AL",0,False,,0.0,1180556
+TXN00421,2020-01-25 12:47:02,EMP0108,Joseph Nixon,Genel,Champlin-Casper,Ekipman & Donanım,17.89,"Tyaskin, MD",0,False,,0.0,965998
+TXN00422,2019-01-21 14:36:37,EMP0256,Karen Ryan,Eğitim,Ankunding Llc,Yazılım & Lisans,217.55,"Joliet, IL",0,False,,0.0,34887
+TXN00423,2020-04-11 01:13:47,EMP0530,Sara Harris,Genel,Christiansen-Gusikowski,Diğer,10.06,"Tupper Lake, NY",0,False,,0.0,1118950
+TXN00424,2019-10-23 15:40:51,EMP0567,John Stevens,Yönetim,"Konopelski, Schneider And Hartmann",Temsil & Ağırlama,9.11,"Hudson, NY",0,False,,0.0,694769
+TXN00425,2019-09-01 23:07:00,EMP0294,Kayla Sutton,Sağlık,Little Ltd,Diğer,59.93,"Carlotta, CA",0,False,,0.0,577910
+TXN00426,2019-04-07 00:03:27,EMP0092,Judith Moss,Yönetim,"Reichert, Huels And Hoppe",Yazılım & Lisans,504.9,"Washington Court House, OH",0,False,,0.0,186021
+TXN00427,2020-03-01 18:50:33,EMP0817,Heather Roberts,Finans & Muhasebe,Deckow-Dare,Temsil & Ağırlama,140.3,"Bethel Springs, TN",0,False,,0.0,1026835
+TXN00428,2020-04-07 01:58:55,EMP0463,Sarah Adams,Bilgi Teknolojileri,Rau And Sons,Ofis Malzemesi,72.29,"Ridgeland, MS",0,False,,0.0,1110889
+TXN00429,2019-10-28 19:15:09,EMP0819,Jennifer Gonzalez,Eğitim,Berge-Ullrich,Ekipman & Donanım,2.33,"Jelm, WY",0,False,,0.0,707570
+TXN00430,2019-06-20 16:06:52,EMP0585,Tyler Small,Bilgi Teknolojileri,Kozey-Kuhlman,Diğer,77.07,"Boyd, WI",0,False,,0.0,369878
+TXN00431,2020-01-06 11:43:32,EMP0530,Sara Harris,Genel,Hermann-Gaylord,Diğer,81.71,"Tupper Lake, NY",0,False,,0.0,934280
+TXN00432,2020-05-22 12:18:52,EMP0421,Judy Hogan,Satış & Pazarlama,"Lakin, Ferry And Beatty",Temsil & Ağırlama,82.79,"Brooklyn, NY",0,False,,0.0,1212716
+TXN00433,2020-03-29 17:53:11,EMP0628,Christina Eaton,Bilgi Teknolojileri,O'Keefe-Wisoky,Temsil & Ağırlama,7.07,"Eldridge, AL",0,False,,0.0,1090586
+TXN00434,2020-04-06 02:01:02,EMP0443,Joseph Murray,Genel,"Schoen, Kuphal And Nitzsche",Ofis Malzemesi,94.39,"Manderson, SD",0,False,,0.0,1107613
+TXN00435,2019-03-30 04:15:59,EMP0349,Lori Ramirez,Tasarım & Kreatif,Heller-Abshire,Ofis Malzemesi,95.18,"Ranier, MN",0,False,,0.0,167852
+TXN00436,2019-11-03 07:38:56,EMP0811,Ashley Whitney,Bilgi Teknolojileri,Torp-Labadie,Ulaşım,109.58,"Jones, AL",0,False,,0.0,718737
+TXN00437,2019-09-11 17:01:20,EMP0606,Laura Casey,Genel,"Hintz, Bauch And Smith",Sağlık & Spor,15.32,"Steuben, ME",0,False,,0.0,599441
+TXN00438,2019-03-12 01:50:42,EMP0271,Larry Vaughan,Bilgi Teknolojileri,"Cormier, Stracke And Thiel",Etkinlik & Organizasyon,5.11,"Kingsville, MD",0,False,,0.0,129136
+TXN00439,2019-03-18 10:36:40,EMP0151,William Jenkins,Bilgi Teknolojileri,"Little, Gutmann And Lynch",Yazılım & Lisans,95.58,"Harper, TX",0,False,,0.0,142719
+TXN00440,2020-02-09 21:22:17,EMP0850,Gina Grimes,Yönetim,Collier Llc,Ekipman & Donanım,230.27,"Clarks Mills, PA",0,False,,0.0,993003
+TXN00441,2019-05-25 11:42:51,EMP0696,Margaret Williams,Bilgi Teknolojileri,Hermann And Sons,Ofis Malzemesi,8.25,"Surrency, GA",0,False,,0.0,295626
+TXN00442,2019-12-15 05:03:44,EMP0300,Zachary Allen,Satış & Pazarlama,Bartoletti-Wunsch,Ulaşım,36.55,"Ollie, IA",0,False,,0.0,847905
+TXN00443,2019-09-27 16:01:50,EMP0865,Melissa Meza,Genel,Terry Ltd,Ekipman & Donanım,86.57,"Loxahatchee, FL",0,False,,0.0,634913
+TXN00444,2019-01-17 12:02:08,EMP0161,Amanda Williams,Bilgi Teknolojileri,Watsica Llc,Diğer,34.1,"Independence, MO",0,False,,0.0,28174
+TXN00445,2019-12-11 12:49:14,EMP0435,Alan Howard,Yönetim,Bode-Schuster,Diğer,35.58,"Detroit, MI",0,False,,0.0,832251
+TXN00446,2020-03-19 17:56:12,EMP0807,Maria Roy,Genel,Roberts-Beahan,Diğer,4.07,"Sheffield, MA",0,False,,0.0,1068577
+TXN00447,2019-07-15 20:02:52,EMP0747,Elizabeth Maxwell,Yönetim,Kirlin And Sons,Diğer,23.69,"Burlington, WA",0,False,,0.0,442430
+TXN00448,2019-02-10 21:28:48,EMP0925,Julia Bell,Bilgi Teknolojileri,Little Ltd,Diğer,47.9,"West Sayville, NY",0,False,,0.0,69296
+TXN00449,2019-12-08 22:05:51,EMP0628,Christina Eaton,Bilgi Teknolojileri,Bode-Schuster,Diğer,60.77,"Eldridge, AL",0,False,,0.0,821002
+TXN00450,2019-07-30 03:46:55,EMP0854,John Myers,Bilgi Teknolojileri,Barton Inc,Ofis Malzemesi,98.62,"Highland, IN",0,False,,0.0,482777
+TXN00451,2020-04-05 01:02:38,EMP0719,Tara Richards,Bilgi Teknolojileri,"Goyette, Howell And Collier",Ofis Malzemesi,7.96,"Keisterville, PA",0,False,,0.0,1104731
+TXN00452,2019-09-23 04:37:39,EMP0227,Candice Brown,Genel,Miller-Hauck,Ofis Malzemesi,62.15,"O Brien, TX",0,False,,0.0,626152
+TXN00453,2020-05-19 07:57:20,EMP0542,Olivia Stephenson,Yönetim,Koepp-Witting,Ofis Malzemesi,184.11,"Lowville, NY",0,False,,0.0,1206620
+TXN00454,2019-12-23 13:08:37,EMP0876,Debra Stark,Bilgi Teknolojileri,Jast Ltd,Yazılım & Lisans,9.66,"Kilgore, TX",0,False,,0.0,887290
+TXN00455,2019-12-15 21:15:34,EMP0154,Allison Ayala,Genel,Kessler Group,Seyahat,8.32,"Fort Myers, FL",0,False,,0.0,852342
+TXN00456,2020-01-05 14:41:13,EMP0264,Sharon Smith,Bilgi Teknolojileri,Weimann-Lockman,Diğer,150.62,"Sun City, CA",0,False,,0.0,932200
+TXN00457,2019-05-01 14:27:50,EMP0396,Jamie Robinson,Sağlık,Kub Plc,Diğer,21.57,"Sturgis, MS",0,False,,0.0,242269
+TXN00458,2020-05-16 16:15:48,EMP0228,Laura Johns,Bilgi Teknolojileri,Heller Plc,Sağlık & Spor,43.97,"Arcadia, SC",0,False,,0.0,1199158
+TXN00459,2019-08-06 16:00:23,EMP0941,Julie Sanchez,Bilgi Teknolojileri,Bruen-Yost,Diğer,4.09,"Bowersville, OH",0,False,,0.0,503684
+TXN00460,2020-06-08 13:12:58,EMP0811,Ashley Whitney,Bilgi Teknolojileri,Kihn-Fritsch,Temsil & Ağırlama,15.72,"Jones, AL",0,False,,0.0,1260640
+TXN00461,2019-08-05 13:07:22,EMP0730,Lauren Anderson,Bilgi Teknolojileri,Auer Llc,Diğer,79.31,"Heart Butte, MT",0,False,,0.0,500467
+TXN00462,2020-02-16 10:46:05,EMP0030,Amy Flynn,Tasarım & Kreatif,Reynolds-Schinner,Diğer,2.18,"Jaffrey, NH",0,False,,0.0,1003710
+TXN00463,2019-12-31 18:56:56,EMP0860,Kristina Lewis,Genel,"Mclaughlin, Armstrong And Koepp",Seyahat,2.18,"Tulsa, OK",0,False,,0.0,924099
+TXN00464,2019-06-12 06:07:18,EMP0478,Grace Williams,Bilgi Teknolojileri,Bins-Rice,Ulaşım,60.94,"Plantersville, AL",0,False,,0.0,347022
+TXN00465,2019-08-27 18:31:47,EMP0014,Sherry Martinez,Bilgi Teknolojileri,Schimmel-Olson,Diğer,3.14,"Garrattsville, NY",0,False,,0.0,563232
+TXN00466,2020-05-07 17:13:07,EMP0690,Matthew Russell,Sağlık,Waelchi-Wolf,Diğer,79.19,"June Lake, CA",0,False,,0.0,1179695
+TXN00467,2019-11-03 13:11:45,EMP0810,Gary Barnes,Finans & Muhasebe,"Hagenes, Kohler And Hoppe",Temsil & Ağırlama,81.0,"Smackover, AR",0,False,,0.0,719362
+TXN00468,2019-09-05 07:48:41,EMP0799,Samuel Johnston,Genel,Goodwin-Nitzsche,Ofis Malzemesi,57.03,"Birmingham, AL",0,False,,0.0,584939
+TXN00469,2019-12-31 13:55:18,EMP0530,Sara Harris,Genel,Hammes-Beatty,Diğer,36.53,"Tupper Lake, NY",0,False,,0.0,923318
+TXN00470,2019-10-01 09:59:03,EMP0948,Charles Moreno,Genel,"Lockman, West And Runte",Ofis Malzemesi,69.99,"Key West, FL",0,False,,0.0,645081
+TXN00471,2020-02-05 03:09:45,EMP0195,Greg Villarreal,Genel,"Tromp, Kerluke And Glover",Ofis Malzemesi,48.7,"Schaefferstown, PA",0,False,,0.0,985088
+TXN00472,2019-11-16 22:54:06,EMP0784,Wayne Payne,Bilgi Teknolojileri,Kulas Group,Sağlık & Spor,15.63,"Cuyahoga Falls, OH",0,False,,0.0,749276
+TXN00473,2020-02-02 20:06:41,EMP0880,Monique Martin,Bilgi Teknolojileri,Schulist Ltd,Temsil & Ağırlama,3.84,"Ratcliff, TX",0,False,,0.0,981031
+TXN00474,2019-12-24 17:53:31,EMP0372,Richard Vance,Tasarım & Kreatif,Padberg-Rogahn,Etkinlik & Organizasyon,57.89,"Zavalla, TX",0,False,,0.0,892569
+TXN00475,2019-04-13 04:31:38,EMP0302,Christopher Miller,Danışmanlık,Nader-Heller,Diğer,1.3,"Varnell, GA",0,False,,0.0,199663
+TXN00476,2019-03-10 20:33:20,EMP0084,Alicia Miller,Genel,Leannon-Ward,Temsil & Ağırlama,238.08,"Randolph, MN",0,False,,0.0,125431
+TXN00477,2019-12-26 07:25:57,EMP0300,Zachary Allen,Satış & Pazarlama,Stoltenberg-Beatty,Ofis Malzemesi,5.36,"Ollie, IA",0,False,,0.0,897595
+TXN00478,2019-07-13 07:04:52,EMP0528,Larry Williams,Genel,"Mosciski, Gislason And Mertz",Ofis Malzemesi,107.35,"Scarborough, ME",0,False,,0.0,433001
+TXN00479,2019-10-20 17:33:45,EMP0297,Craig Franco,Genel,Connelly Plc,Temsil & Ağırlama,61.86,"Smithfield, IL",0,False,,0.0,688191
+TXN00480,2020-05-11 14:30:33,EMP0072,Robert Martinez,Eğitim,"Cronin, Kshlerin And Weber",Sağlık & Spor,42.58,"Pueblo, CO",0,False,,0.0,1188354
+TXN00481,2019-07-20 17:37:19,EMP0574,Rachel Villarreal,Genel,Lynch Ltd,Ofis Malzemesi,7.47,"University, MS",0,False,,0.0,453904
+TXN00482,2020-03-02 03:27:20,EMP0089,Christie Williamson,Bilgi Teknolojileri,Cole Plc,Ofis Malzemesi,102.39,"Avoca, IA",0,False,,0.0,1027897
+TXN00483,2020-06-06 19:39:47,EMP0220,Jessica Perez,Bilgi Teknolojileri,"Bins, Balistreri And Beatty",Ofis Malzemesi,1.08,"Superior, AZ",0,False,,0.0,1255023
+TXN00484,2019-05-14 02:00:00,EMP0294,Kayla Sutton,Sağlık,Stamm-Rodriguez,Diğer,1.18,"Carlotta, CA",0,False,,0.0,271507
+TXN00485,2019-05-21 17:12:54,EMP0924,Mary Myers,Ar-Ge,O'Connell-Ullrich,Ekipman & Donanım,67.53,"Tiptonville, TN",0,False,,0.0,288127
+TXN00486,2019-09-29 21:30:22,EMP0010,Corey Jones,Operasyon & Lojistik,White And Sons,Ekipman & Donanım,82.53,"West Decatur, PA",0,False,,0.0,641106
+TXN00487,2019-10-12 10:50:46,EMP0907,Stanley Mayo,Yönetim,"Boehm, Predovic And Reinger",Diğer,32.53,"Fiddletown, CA",0,False,,0.0,668451
+TXN00488,2019-08-24 21:26:17,EMP0790,Valerie Davis,Bilgi Teknolojileri,"Schroeder, Hauck And Treutel",Etkinlik & Organizasyon,1.38,"Drakes Branch, VA",0,False,,0.0,553673
+TXN00489,2019-07-10 01:36:27,EMP0091,James Leon,Sağlık,"Schultz, Simonis And Little",Ofis Malzemesi,67.43,"Alexandria, VA",0,False,,0.0,425570
+TXN00490,2020-06-06 12:55:26,EMP0041,Stephanie Gill,Eğitim,Beier And Sons,Ekipman & Donanım,5.5,"Orient, WA",0,False,,0.0,1254226
+TXN00491,2020-05-28 23:47:02,EMP0131,Matthew Sanchez,Operasyon & Lojistik,Buckridge Plc,Diğer,6.8,"Moss Point, MS",1,False,,0.0,1230882
+TXN00492,2020-01-05 22:40:44,EMP0141,Michael Johnson,Genel,Botsford Plc,Ekipman & Donanım,80.16,"Norwalk, CA",0,False,,0.0,933241
+TXN00493,2019-01-27 20:23:13,EMP0461,Francisco Kemp,Genel,"Runolfsdottir, Mueller And Hand",Etkinlik & Organizasyon,44.6,"Arnold, MO",0,False,,0.0,45060
+TXN00494,2019-09-01 22:37:23,EMP0599,David Miller,Genel,Dickinson Ltd,Diğer,4.44,"Hancock, MD",0,False,,0.0,577804
+TXN00495,2019-04-29 09:08:57,EMP0460,James Cooper,Operasyon & Lojistik,"Eichmann, Bogan And Rodriguez",Ulaşım,79.34,"Huntsville, AL",0,False,,0.0,237635
+TXN00496,2020-02-03 23:11:53,EMP0154,Allison Ayala,Genel,Wilkinson Ltd,Etkinlik & Organizasyon,46.59,"Fort Myers, FL",0,False,,0.0,983717
+TXN00497,2019-09-18 13:19:50,EMP0156,Kathleen Thompson,Genel,Swift Plc,Diğer,35.54,"Naples, FL",0,False,,0.0,615084
+TXN00498,2019-12-02 21:06:20,EMP0829,Joshua Cohen,Genel,Thompson-Gleason,Sağlık & Spor,73.96,"Brooklin, ME",0,False,,0.0,795300
+TXN00499,2019-04-23 15:29:24,EMP0227,Candice Brown,Genel,Marvin-Lind,Diğer,106.7,"O Brien, TX",0,False,,0.0,224814
+TXN00500,2019-11-02 16:44:00,EMP0804,Martin Duarte,Sağlık,Padberg-Welch,Ofis Malzemesi,362.92,"Luzerne, MI",1,False,,0.0,716906
